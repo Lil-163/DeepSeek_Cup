@@ -1,0 +1,227 @@
+split,stage,method,n_points,mean_error,p95_error
+test,Adjust the positions of the three boxes for neat alignment.,constant_velocity,146,0.002752779276578067,0.0062329898955824714
+test,Adjust the positions of the three boxes for neat alignment.,cv_kalman,146,0.002968343169434884,0.006725261681892512
+test,Adjust the positions of the three boxes for neat alignment.,last_value,146,0.005566928853077304,0.01487254571909908
+test,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,constant_velocity,180,0.00289035541301731,0.007841476928521596
+test,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,cv_kalman,180,0.0030162032929687277,0.007995306734452728
+test,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,last_value,180,0.007396070497117482,0.018053968443789564
+test,Arrange multiple packs of orange snacks into a neat stack on the shelf,constant_velocity,300,0.004698463586082367,0.011813455939734074
+test,Arrange multiple packs of orange snacks into a neat stack on the shelf,cv_kalman,300,0.0050350575222249125,0.013035316601986386
+test,Arrange multiple packs of orange snacks into a neat stack on the shelf,last_value,300,0.009259994406184842,0.020696263755330232
+test,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,constant_velocity,564,0.0035319530905971674,0.00847621883341506
+test,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,cv_kalman,564,0.0036576613791729096,0.009374977527561779
+test,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,last_value,564,0.01187377647861556,0.024389133757277737
+test,Arrange the cardboard boxes on the shelf,constant_velocity,1092,0.002514194722981554,0.005822376304446937
+test,Arrange the cardboard boxes on the shelf,cv_kalman,1092,0.0027928106099246756,0.006458722324903616
+test,Arrange the cardboard boxes on the shelf,last_value,1092,0.010853964517998738,0.02536458893575421
+test,Arrange two packs of green snacks neatly on the shelf,constant_velocity,300,0.0041249894656780525,0.011102492836621769
+test,Arrange two packs of green snacks neatly on the shelf,cv_kalman,300,0.004292855220911966,0.010899195977692738
+test,Arrange two packs of green snacks neatly on the shelf,last_value,300,0.010415909605197777,0.025257718874264205
+test,Move the leftmost cello SWIFT box to the right and align it,constant_velocity,216,0.002371124347767274,0.005438552409184949
+test,Move the leftmost cello SWIFT box to the right and align it,cv_kalman,216,0.002537808125823653,0.006050466196960107
+test,Move the leftmost cello SWIFT box to the right and align it,last_value,216,0.0047246153404763075,0.013701073703721176
+test,Move the middle cello SWIFT box to the left and align it,constant_velocity,204,0.001997673113109444,0.005127905186661546
+test,Move the middle cello SWIFT box to the left and align it,cv_kalman,204,0.0021523142420736534,0.005286610225805345
+test,Move the middle cello SWIFT box to the left and align it,last_value,204,0.004185252099639939,0.012600705673149158
+test,Move the rightmost cello SWIFT box to the left and align it,constant_velocity,176,0.0021111447756381164,0.005129291372231131
+test,Move the rightmost cello SWIFT box to the left and align it,cv_kalman,176,0.002183402600170291,0.004900520720453662
+test,Move the rightmost cello SWIFT box to the left and align it,last_value,176,0.0037728225782820827,0.008972592013138582
+test,Organize and arrange the small cardboard boxes on the shelf,constant_velocity,176,0.005215552938507493,0.01626267033112874
+test,Organize and arrange the small cardboard boxes on the shelf,cv_kalman,176,0.005280665896741914,0.018001950636842835
+test,Organize and arrange the small cardboard boxes on the shelf,last_value,176,0.009774258619112618,0.0224757467774213
+test,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,284,0.005087101312109206,0.011487784040874121
+test,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,284,0.005183002979803036,0.011219493459281164
+test,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,last_value,284,0.011151798636990066,0.02350829507754712
+test,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,294,0.006332424943207811,0.01803956659000669
+test,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,294,0.006707491176415885,0.019063290219522914
+test,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,last_value,294,0.012057611975401774,0.034616485330945204
+test,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,300,0.006339839095320379,0.01608949304905528
+test,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,300,0.006186370848009733,0.014890903651560374
+test,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,last_value,300,0.012644558315092112,0.026051420483244
+test,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,300,0.005122479352499059,0.01160812459627044
+test,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,300,0.005039709852279076,0.010677470166203032
+test,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,last_value,300,0.010934667479924306,0.026509651065392593
+test,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,273,0.0035878141260147858,0.009680380555881475
+test,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,273,0.0036123091486162727,0.009383671373474635
+test,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,last_value,273,0.005277013583773659,0.013052861403624456
+test,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,300,0.004570164820133244,0.009874153484998573
+test,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,300,0.004542121814299788,0.009750023478020599
+test,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,last_value,300,0.011372611092521691,0.022851417285706548
+test,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,270,0.005395259336204987,0.013651954872427822
+test,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,270,0.005309215470894048,0.013333319133155216
+test,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,last_value,270,0.011658471240037811,0.02578612353229112
+test,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,300,0.0061095715524099635,0.015029609449854858
+test,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,300,0.006177748025725234,0.015537499764249752
+test,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,last_value,300,0.011008103272578415,0.023442550279105547
+test,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,288,0.007314954234155186,0.01873365524022738
+test,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,288,0.007149949253333827,0.01852816689948376
+test,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,last_value,288,0.014461055344504505,0.029832192307075938
+test,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,289,0.006610556955223179,0.018207183262197096
+test,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,cv_kalman,289,0.0063328318664979625,0.015945466411317923
+test,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,last_value,289,0.012158614650663745,0.027284354501734772
+test,Pick up two cardboard boxes from the blue plastic basket,constant_velocity,2576,0.0029647122394852246,0.006394335757955595
+test,Pick up two cardboard boxes from the blue plastic basket,cv_kalman,2576,0.00318310000001459,0.006803121239173341
+test,Pick up two cardboard boxes from the blue plastic basket,last_value,2576,0.017402200155197688,0.03396360090370271
+test,Pick up two packs of black snacks from the shelf and put them back into the box,constant_velocity,360,0.003334429092828292,0.008301225172246282
+test,Pick up two packs of black snacks from the shelf and put them back into the box,cv_kalman,360,0.0035906997688484412,0.008496447120357182
+test,Pick up two packs of black snacks from the shelf and put them back into the box,last_value,360,0.013193414295676255,0.028362148325033226
+test,Pick up two packs of green snacks from the shelf and rearrange them,constant_velocity,240,0.0037509957044106978,0.008789570329932779
+test,Pick up two packs of green snacks from the shelf and rearrange them,cv_kalman,240,0.0039646818332379225,0.009225692359899952
+test,Pick up two packs of green snacks from the shelf and rearrange them,last_value,240,0.010526488862261483,0.019217432265832328
+test,Pick up two packs of orange snacks from the shelf and put them back into the box,constant_velocity,240,0.0034052577206334666,0.00800273634738
+test,Pick up two packs of orange snacks from the shelf and put them back into the box,cv_kalman,240,0.0036624735031852086,0.008226797710016403
+test,Pick up two packs of orange snacks from the shelf and put them back into the box,last_value,240,0.00920482708741689,0.02312757350709526
+test,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,constant_velocity,420,0.004567894386106806,0.010370559931218756
+test,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,cv_kalman,420,0.004726620505395331,0.010113811761985317
+test,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,last_value,420,0.013755099397497642,0.029900736982056687
+test,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,constant_velocity,420,0.0034716342956920884,0.007898580869569793
+test,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,cv_kalman,420,0.0036086463189513615,0.008425572620439435
+test,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,last_value,420,0.012933992070754737,0.02775761339851346
+test,Place the cardboard box on the shelf,constant_velocity,2091,0.003537827863164034,0.00821247909395582
+test,Place the cardboard box on the shelf,cv_kalman,2091,0.00379832722348127,0.008532381492870979
+test,Place the cardboard box on the shelf,last_value,2091,0.017317190805784168,0.034141696060907376
+test,Place the cardboard box with the green mark on the shelf,constant_velocity,540,0.0042384286689385806,0.010999355852815324
+test,Place the cardboard box with the green mark on the shelf,cv_kalman,540,0.004509958621992051,0.010810485680659204
+test,Place the cardboard box with the green mark on the shelf,last_value,540,0.015963126077047803,0.03446715010134888
+test,Place the cardboard box with the orange label on the shelf,constant_velocity,630,0.004428617551399387,0.009347710866521875
+test,Place the cardboard box with the orange label on the shelf,cv_kalman,630,0.00480870527784126,0.010513659503407918
+test,Place the cardboard box with the orange label on the shelf,last_value,630,0.017204852496797547,0.03699366066070867
+test,Place the cardboard box with the yellow label on the shelf,constant_velocity,998,0.0030654650345136613,0.006830069327032999
+test,Place the cardboard box with the yellow label on the shelf,cv_kalman,998,0.003339382798099686,0.007192315851081747
+test,Place the cardboard box with the yellow label on the shelf,last_value,998,0.01652727399338615,0.030790928478776142
+test,Place the long cardboard box on the shelf,constant_velocity,558,0.003794221105695896,0.008578976415709965
+test,Place the long cardboard box on the shelf,cv_kalman,558,0.0040314136736545264,0.00932677526214229
+test,Place the long cardboard box on the shelf,last_value,558,0.0174441456101452,0.03994535467425444
+test,Place the pink package on the shelf,constant_velocity,356,0.003212252966768157,0.007093594308123835
+test,Place the pink package on the shelf,cv_kalman,356,0.003423587465339905,0.007154268178617505
+test,Place the pink package on the shelf,last_value,356,0.015576474129221302,0.035081080166249945
+test,Place the small cardboard box on the shelf,constant_velocity,1080,0.0035045157431202252,0.00817203788329906
+test,Place the small cardboard box on the shelf,cv_kalman,1080,0.0037319011432419788,0.008300362493328576
+test,Place the small cardboard box on the shelf,last_value,1080,0.01767876839018137,0.0369882074962643
+test,Place the small cardboard boxes into the blue plastic basket one by one,constant_velocity,2977,0.005771488343558406,0.014212383364130846
+test,Place the small cardboard boxes into the blue plastic basket one by one,cv_kalman,2977,0.005609638075833862,0.013764594844140297
+test,Place the small cardboard boxes into the blue plastic basket one by one,last_value,2977,0.011829067023861219,0.026739946835531544
+test,Place the two cardboard boxes on the shelf,constant_velocity,3570,0.002878963767113282,0.006590783329578419
+test,Place the two cardboard boxes on the shelf,cv_kalman,3570,0.0030777576697457,0.006937641017742025
+test,Place the two cardboard boxes on the shelf,last_value,3570,0.01767854370314217,0.03594847033788356
+test,Rotate the box on the far left to face outward.,constant_velocity,120,0.002977499329320323,0.007238982169045423
+test,Rotate the box on the far left to face outward.,cv_kalman,120,0.00310202719317928,0.007051495165568944
+test,Rotate the box on the far left to face outward.,last_value,120,0.005409509862894411,0.011977177826100971
+test,Rotate the box on the far right to face outward.,constant_velocity,116,0.00284727744401062,0.0061540565637291066
+test,Rotate the box on the far right to face outward.,cv_kalman,116,0.003030030214712216,0.006286064913756682
+test,Rotate the box on the far right to face outward.,last_value,116,0.006789073875119486,0.01639712323509956
+test,Rotate the middle box to face outward.,constant_velocity,120,0.003624214476462147,0.008365566659529308
+test,Rotate the middle box to face outward.,cv_kalman,120,0.0038090093212390383,0.008266354082170557
+test,Rotate the middle box to face outward.,last_value,120,0.007482677758640898,0.016970851022541582
+test,Take two packs of orange snacks from the box and place them on the shelf,constant_velocity,416,0.003606747161745676,0.008618486378512733
+test,Take two packs of orange snacks from the box and place them on the shelf,cv_kalman,416,0.003783796058519113,0.008722576160782316
+test,Take two packs of orange snacks from the box and place them on the shelf,last_value,416,0.011675048160642283,0.023699830638674448
+test,unlabeled,constant_velocity,60,0.004457196057477493,0.01056459647762419
+test,unlabeled,cv_kalman,60,0.004799488068918469,0.01144402701634362
+test,unlabeled,last_value,60,0.011108703520107812,0.026381012747973574
+validation,Adjust the position of the blue bottle on the lower shelf,constant_velocity,120,0.0026280359435297096,0.007243931933430292
+validation,Adjust the position of the blue bottle on the lower shelf,cv_kalman,120,0.0026057856747493187,0.0064203434615890025
+validation,Adjust the position of the blue bottle on the lower shelf,last_value,120,0.007755763426233223,0.021992382177400766
+validation,Adjust the position of the pink bottle on the lower shelf,constant_velocity,240,0.0026658330514526337,0.006636361117944624
+validation,Adjust the position of the pink bottle on the lower shelf,cv_kalman,240,0.0028448998777855714,0.007239339101578045
+validation,Adjust the position of the pink bottle on the lower shelf,last_value,240,0.008199066054231926,0.028558232711079663
+validation,Adjust the position of the sponges in the back row of the storage box,constant_velocity,540,0.0036239377460867417,0.008042190483903446
+validation,Adjust the position of the sponges in the back row of the storage box,cv_kalman,540,0.0038728996973708863,0.008300374574820654
+validation,Adjust the position of the sponges in the back row of the storage box,last_value,540,0.006694607188486952,0.017527780863206773
+validation,Adjust the position of the sponges in the front row of the storage box,constant_velocity,240,0.002614941996218195,0.006077447685082588
+validation,Adjust the position of the sponges in the front row of the storage box,cv_kalman,240,0.00291403539098395,0.007596059618097795
+validation,Adjust the position of the sponges in the front row of the storage box,last_value,240,0.005665056559666342,0.014501385372338749
+validation,Arrange the mineral water bottles on the table into a neat formation,constant_velocity,979,0.0020890661554438007,0.004839409432536135
+validation,Arrange the mineral water bottles on the table into a neat formation,cv_kalman,979,0.00227690146814529,0.0051408853544043995
+validation,Arrange the mineral water bottles on the table into a neat formation,last_value,979,0.0066558662573834885,0.016394904307552294
+validation,Clean the adhesive residue on the shelf post,constant_velocity,538,0.003004845124031867,0.008389860220001386
+validation,Clean the adhesive residue on the shelf post,cv_kalman,538,0.003078965515911104,0.008479202672089127
+validation,Clean the adhesive residue on the shelf post,last_value,538,0.006809843262247557,0.021987002612454225
+validation,Continue to take the mineral water bottle out of the plastic bag and put it on the table,constant_velocity,561,0.0047690126498818155,0.013992856785397955
+validation,Continue to take the mineral water bottle out of the plastic bag and put it on the table,cv_kalman,561,0.005142080943280261,0.015008352631973936
+validation,Continue to take the mineral water bottle out of the plastic bag and put it on the table,last_value,561,0.012630182650266426,0.031154453279876832
+validation,Move the blue bottle from the lower shelf back to the upper shelf,constant_velocity,240,0.0023487241002571398,0.005583970927104525
+validation,Move the blue bottle from the lower shelf back to the upper shelf,cv_kalman,240,0.002603402661112048,0.006305249893900703
+validation,Move the blue bottle from the lower shelf back to the upper shelf,last_value,240,0.007026577329866726,0.024146905547174382
+validation,Move the blue bottle from the upper shelf to the lower shelf and put it back next to the red bottle,constant_velocity,240,0.0024850333602835424,0.0059592800967375875
+validation,Move the blue bottle from the upper shelf to the lower shelf and put it back next to the red bottle,cv_kalman,240,0.0026454827985629486,0.005635847803671013
+validation,Move the blue bottle from the upper shelf to the lower shelf and put it back next to the red bottle,last_value,240,0.008040293073799628,0.02171755532188101
+validation,Move the pink bottle from the upper shelf to the lower shelf,constant_velocity,176,0.002467915015493917,0.005364315360462717
+validation,Move the pink bottle from the upper shelf to the lower shelf,cv_kalman,176,0.002623155704251726,0.00560112749024047
+validation,Move the pink bottle from the upper shelf to the lower shelf,last_value,176,0.00747697603261629,0.020264007401693478
+validation,Move the red bottle from the lower shelf back to the upper shelf,constant_velocity,180,0.0022835843105770753,0.0054175583349617825
+validation,Move the red bottle from the lower shelf back to the upper shelf,cv_kalman,180,0.002538252254176682,0.005776883024082685
+validation,Move the red bottle from the lower shelf back to the upper shelf,last_value,180,0.008144372030779546,0.021821468685264484
+validation,Pick up another piece of paper and stick it on the shelf post,constant_velocity,772,0.0031543552682109822,0.00855438287206036
+validation,Pick up another piece of paper and stick it on the shelf post,cv_kalman,772,0.003298620503258662,0.008717041387722673
+validation,Pick up another piece of paper and stick it on the shelf post,last_value,772,0.007307980935605644,0.02118564524629699
+validation,Pick up mineral water from the black folding table again,constant_velocity,176,0.0030074058299527943,0.007208443002495816
+validation,Pick up mineral water from the black folding table again,cv_kalman,176,0.0034087872713759824,0.008197983629016161
+validation,Pick up mineral water from the black folding table again,last_value,176,0.009537057260722674,0.02986384899628728
+validation,Pick up several bottles of mineral water from the black folding table,constant_velocity,116,0.0037173456744929267,0.009321769090612192
+validation,Pick up several bottles of mineral water from the black folding table,cv_kalman,116,0.00403261254089243,0.009693130905291118
+validation,Pick up several bottles of mineral water from the black folding table,last_value,116,0.012261094409043443,0.03875511974657503
+validation,Pick up the fifth cardboard box and place it on the left side,constant_velocity,420,0.004009540802172888,0.00832863637849746
+validation,Pick up the fifth cardboard box and place it on the left side,cv_kalman,420,0.004189884010508162,0.008778489937145634
+validation,Pick up the fifth cardboard box and place it on the left side,last_value,420,0.006752862434451761,0.015610004970913124
+validation,Pick up the first cardboard box and place it on the left side,constant_velocity,521,0.005273689728680099,0.011248519556724127
+validation,Pick up the first cardboard box and place it on the left side,cv_kalman,521,0.005421698207714681,0.011480092616197804
+validation,Pick up the first cardboard box and place it on the left side,last_value,521,0.008174275153128957,0.016774922187891297
+validation,Pick up the fourth cardboard box and place it on the left side,constant_velocity,546,0.004149217225055344,0.009671176818442054
+validation,Pick up the fourth cardboard box and place it on the left side,cv_kalman,546,0.0043198573625553216,0.009694347620148099
+validation,Pick up the fourth cardboard box and place it on the left side,last_value,546,0.00742903428893626,0.01853318523009041
+validation,Pick up the remaining mineral water from the black folding table,constant_velocity,152,0.005449340562271491,0.01221638207428918
+validation,Pick up the remaining mineral water from the black folding table,cv_kalman,152,0.005750948115508853,0.01120126816463569
+validation,Pick up the remaining mineral water from the black folding table,last_value,152,0.01587126191910972,0.042967106430884715
+validation,Pick up the second cardboard box and place it on the left side,constant_velocity,366,0.004666384193491552,0.010424639632665177
+validation,Pick up the second cardboard box and place it on the left side,cv_kalman,366,0.0048967706154139775,0.011355551702960483
+validation,Pick up the second cardboard box and place it on the left side,last_value,366,0.007876718144922551,0.0169318228881587
+validation,Pick up the seventh cardboard box and place it on the left side,constant_velocity,630,0.003751158372024708,0.00946147178525206
+validation,Pick up the seventh cardboard box and place it on the left side,cv_kalman,630,0.003932204350153891,0.009654806635202356
+validation,Pick up the seventh cardboard box and place it on the left side,last_value,630,0.006604475248332249,0.015076564967495295
+validation,Pick up the sixth cardboard box and place it on the left side,constant_velocity,352,0.005252182766142378,0.011508439795638788
+validation,Pick up the sixth cardboard box and place it on the left side,cv_kalman,352,0.00540223080100003,0.011820036611815321
+validation,Pick up the sixth cardboard box and place it on the left side,last_value,352,0.009231823857503908,0.018861410577178647
+validation,Pick up the third cardboard box and place it on the left side,constant_velocity,474,0.004824689076730553,0.010984773405430111
+validation,Pick up the third cardboard box and place it on the left side,cv_kalman,474,0.005034530903503384,0.011932806440450647
+validation,Pick up the third cardboard box and place it on the left side,last_value,474,0.008102750774962673,0.019650877820166036
+validation,Place the blue sponge and the yellow sponge in the front row of the storage box,constant_velocity,240,0.003470933852656513,0.007854650241949307
+validation,Place the blue sponge and the yellow sponge in the front row of the storage box,cv_kalman,240,0.003731939011995827,0.008387150422369623
+validation,Place the blue sponge and the yellow sponge in the front row of the storage box,last_value,240,0.011432967616149512,0.02254554643236836
+validation,Place the green sponge and the round sponge in the storage box,constant_velocity,180,0.0035353469352585997,0.007746869303917061
+validation,Place the green sponge and the round sponge in the storage box,cv_kalman,180,0.0038888702128314153,0.008327294685060571
+validation,Place the green sponge and the round sponge in the storage box,last_value,180,0.009746988045624797,0.026788753172286548
+validation,Place the mineral water on the shelf,constant_velocity,340,0.005611837833654489,0.013887467457499627
+validation,Place the mineral water on the shelf,cv_kalman,340,0.006168901951824859,0.016182720294985065
+validation,Place the mineral water on the shelf,last_value,340,0.01918214968897427,0.045114032671820695
+validation,Place the mineral water on the shelf and organize it,constant_velocity,204,0.0027497527536644415,0.006518932768581331
+validation,Place the mineral water on the shelf and organize it,cv_kalman,204,0.002923353824338962,0.006601066839096738
+validation,Place the mineral water on the shelf and organize it,last_value,204,0.007043643868760873,0.023428346300069756
+validation,Place the paper on the lower layer of the shelf,constant_velocity,166,0.00413429605928575,0.009758839538393035
+validation,Place the paper on the lower layer of the shelf,cv_kalman,166,0.004409126497657137,0.010063621811487622
+validation,Place the paper on the lower layer of the shelf,last_value,166,0.007844573103628712,0.01790564732252062
+validation,Place the yellow sponge and the colorful sponge in the back row of the storage box,constant_velocity,176,0.004269116870033881,0.011072963952613807
+validation,Place the yellow sponge and the colorful sponge in the back row of the storage box,cv_kalman,176,0.004574824612132648,0.010921280183310579
+validation,Place the yellow sponge and the colorful sponge in the back row of the storage box,last_value,176,0.010238938389914309,0.025437339874451365
+validation,Place the yellow sponge and the colorful sponge in the front row of the storage box,constant_velocity,180,0.0034174569755447974,0.007130161182175365
+validation,Place the yellow sponge and the colorful sponge in the front row of the storage box,cv_kalman,180,0.0036770273749184364,0.007499184141666222
+validation,Place the yellow sponge and the colorful sponge in the front row of the storage box,last_value,180,0.009550244429264778,0.02448757866168177
+validation,"Remove the paper with ""Express Sorting Area"" from the shelf",constant_velocity,600,0.0031355250803583035,0.008207532491732944
+validation,"Remove the paper with ""Express Sorting Area"" from the shelf",cv_kalman,600,0.003350479015278415,0.008773746969937813
+validation,"Remove the paper with ""Express Sorting Area"" from the shelf",last_value,600,0.00790243979067354,0.025102790503333593
+validation,"Stick the ""Express Sorting Area"" paper onto the shelf and smooth it out",constant_velocity,852,0.002976552428009778,0.00810178639897001
+validation,"Stick the ""Express Sorting Area"" paper onto the shelf and smooth it out",cv_kalman,852,0.0032429847993385805,0.009139047133611463
+validation,"Stick the ""Express Sorting Area"" paper onto the shelf and smooth it out",last_value,852,0.007319766741915705,0.019343544523961056
+validation,"Stick the paper with ""Receiving Area"" onto the shelf",constant_velocity,532,0.0032847996280139184,0.008091319404796678
+validation,"Stick the paper with ""Receiving Area"" onto the shelf",cv_kalman,532,0.0034575277100781353,0.008050517644770893
+validation,"Stick the paper with ""Receiving Area"" onto the shelf",last_value,532,0.006194280232414544,0.013049689189164106
+validation,Take the mineral water bottle out of the plastic bag and put it on the table,constant_velocity,677,0.004968043804454848,0.012469767772249212
+validation,Take the mineral water bottle out of the plastic bag and put it on the table,cv_kalman,677,0.005372705891745856,0.012697880273718216
+validation,Take the mineral water bottle out of the plastic bag and put it on the table,last_value,677,0.013992459608144325,0.03135136499252225
+validation,Tear off the paper on the shelf,constant_velocity,502,0.002771719322824964,0.008125431982321199
+validation,Tear off the paper on the shelf,cv_kalman,502,0.00288777013684484,0.007980019317165066
+validation,Tear off the paper on the shelf,last_value,502,0.005083940856314936,0.014655616715092435
+validation,unlabeled,constant_velocity,84,0.005262029820498813,0.016062170411306365
+validation,unlabeled,cv_kalman,84,0.005413533408198999,0.014929642899596758
+validation,unlabeled,last_value,84,0.007669742614659384,0.019310396782846077
+

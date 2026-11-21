@@ -1,0 +1,60 @@
+{
+  "mode": "full",
+  "n_sequences": 138,
+  "n_records": 69,
+  "n_frames": 132140,
+  "records_by_dataset": {
+    "EgoDemo": 31,
+    "EgoPro": 14,
+    "EgoStandard": 24
+  },
+  "split_counts": {
+    "train": 55,
+    "validation": 7,
+    "test": 7
+  },
+  "environments_by_split": {
+    "test": 4,
+    "train": 16,
+    "validation": 4
+  },
+  "n_intervals": 349,
+  "n_intervals_ge_1_2s": 341,
+  "retention_counts": {
+    "qualified_reference": 335,
+    "analysis_only_low_quality": 8,
+    "excluded_too_short": 6
+  },
+  "bad_frames_total": 1000,
+  "issues_by_code": {},
+  "elapsed_s": 0.5,
+  "signature": {
+    "EgoDemo": {
+      "zip_size": 1910546565,
+      "zip_mtime_ns": 1795082094000000000
+    },
+    "EgoDemo_tree": {
+      "n_files": 297,
+      "total_bytes": 1916728226,
+      "mtime_ns_max": 1793946166000000000
+    },
+    "EgoPro": {
+      "zip_size": 1929855511,
+      "zip_mtime_ns": 1795082104000000000
+    },
+    "EgoPro_tree": {
+      "n_files": 308,
+      "total_bytes": 2029238984,
+      "mtime_ns_max": 1795080910000000000
+    },
+    "EgoStandard": {
+      "zip_size": 1997628414,
+      "zip_mtime_ns": 1795082116000000000
+    },
+    "EgoStandard_tree": {
+      "n_files": 384,
+      "total_bytes": 2150408653,
+      "mtime_ns_max": 1795080910000000000
+    }
+  }
+}

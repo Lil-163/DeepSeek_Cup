@@ -1,0 +1,11 @@
+# Local parsed-data cache; regenerate from the supplied source data.
+data_cache/
+
+# Python and IDE-generated files.
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+
+# Keep outputs tracked selectively; large frame-level exports stay local.
+

@@ -1,0 +1,798 @@
+duration_s,stage,method,windows,mae,requests,waiting_s
+0.25,Adjust the positions of the three boxes for neat alignment.,adaptive_request,18,0.01878739148548957,0.0,0.0
+0.25,Adjust the positions of the three boxes for neat alignment.,constant_velocity,18,0.018787391485489593,0.0,0.0
+0.25,Adjust the positions of the three boxes for neat alignment.,fixed_interval,18,0.01878739148548957,0.0,0.0
+0.25,Adjust the positions of the three boxes for neat alignment.,last_value,18,0.0193741347823509,0.0,0.0
+0.25,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,adaptive_request,22,0.024266598847573862,0.0,0.0
+0.25,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,constant_velocity,22,0.02426659884757406,0.0,0.0
+0.25,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,fixed_interval,22,0.024266598847573862,0.0,0.0
+0.25,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,last_value,22,0.03020042055733679,0.0,0.0
+0.25,Arrange multiple packs of orange snacks into a neat stack on the shelf,adaptive_request,38,0.037236552570935375,0.0,0.0
+0.25,Arrange multiple packs of orange snacks into a neat stack on the shelf,constant_velocity,38,0.037236552570935375,0.0,0.0
+0.25,Arrange multiple packs of orange snacks into a neat stack on the shelf,fixed_interval,38,0.037236552570935375,0.0,0.0
+0.25,Arrange multiple packs of orange snacks into a neat stack on the shelf,last_value,38,0.03328357044202982,0.0,0.0
+0.25,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,adaptive_request,70,0.024839869915483558,0.0,0.0
+0.25,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,constant_velocity,70,0.02483986991548356,0.0,0.0
+0.25,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,fixed_interval,70,0.024839869915483558,0.0,0.0
+0.25,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,last_value,70,0.04955510875255235,0.0,0.0
+0.25,Arrange the cardboard boxes on the shelf,adaptive_request,136,0.024503810066000116,0.0,0.0
+0.25,Arrange the cardboard boxes on the shelf,constant_velocity,136,0.024503810066000126,0.0,0.0
+0.25,Arrange the cardboard boxes on the shelf,fixed_interval,136,0.024503810066000116,0.0,0.0
+0.25,Arrange the cardboard boxes on the shelf,last_value,136,0.046413580198482664,0.0,0.0
+0.25,Arrange two packs of green snacks neatly on the shelf,adaptive_request,38,0.026266405810521785,0.0,0.0
+0.25,Arrange two packs of green snacks neatly on the shelf,constant_velocity,38,0.02626640581052179,0.0,0.0
+0.25,Arrange two packs of green snacks neatly on the shelf,fixed_interval,38,0.026266405810521785,0.0,0.0
+0.25,Arrange two packs of green snacks neatly on the shelf,last_value,38,0.043224808263699864,0.0,0.0
+0.25,Move the leftmost cello SWIFT box to the right and align it,adaptive_request,28,0.018111754979888737,0.0,0.0
+0.25,Move the leftmost cello SWIFT box to the right and align it,constant_velocity,28,0.018111754979888716,0.0,0.0
+0.25,Move the leftmost cello SWIFT box to the right and align it,fixed_interval,28,0.018111754979888737,0.0,0.0
+0.25,Move the leftmost cello SWIFT box to the right and align it,last_value,28,0.019559591433004935,0.0,0.0
+0.25,Move the middle cello SWIFT box to the left and align it,adaptive_request,26,0.01317471291558727,0.0,0.0
+0.25,Move the middle cello SWIFT box to the left and align it,constant_velocity,26,0.01317471291558727,0.0,0.0
+0.25,Move the middle cello SWIFT box to the left and align it,fixed_interval,26,0.01317471291558727,0.0,0.0
+0.25,Move the middle cello SWIFT box to the left and align it,last_value,26,0.016854928482431315,0.0,0.0
+0.25,Move the rightmost cello SWIFT box to the left and align it,adaptive_request,22,0.013151270970860383,0.0,0.0
+0.25,Move the rightmost cello SWIFT box to the left and align it,constant_velocity,22,0.013151270970860546,0.0,0.0
+0.25,Move the rightmost cello SWIFT box to the left and align it,fixed_interval,22,0.013151270970860383,0.0,0.0
+0.25,Move the rightmost cello SWIFT box to the left and align it,last_value,22,0.01389671373040392,0.0,0.0
+0.25,Organize and arrange the small cardboard boxes on the shelf,adaptive_request,22,0.033498005056847094,0.0,0.0
+0.25,Organize and arrange the small cardboard boxes on the shelf,constant_velocity,22,0.03349800505684711,0.0,0.0
+0.25,Organize and arrange the small cardboard boxes on the shelf,fixed_interval,22,0.033498005056847094,0.0,0.0
+0.25,Organize and arrange the small cardboard boxes on the shelf,last_value,22,0.03760356027695328,0.0,0.0
+0.25,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,36,0.029383784934706766,0.0,0.0
+0.25,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,36,0.029383784934706773,0.0,0.0
+0.25,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,36,0.029383784934706766,0.0,0.0
+0.25,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,last_value,36,0.045734209112505336,0.0,0.0
+0.25,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,36,0.038738974121409295,0.0,0.0
+0.25,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,36,0.03873897412140928,0.0,0.0
+0.25,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,36,0.038738974121409295,0.0,0.0
+0.25,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,last_value,36,0.045466500503205144,0.0,0.0
+0.25,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,38,0.03129914645065721,0.0,0.0
+0.25,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,38,0.03129914645065723,0.0,0.0
+0.25,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,38,0.03129914645065721,0.0,0.0
+0.25,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,last_value,38,0.0523685895972617,0.0,0.0
+0.25,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,36,0.028788312758462584,0.0,0.0
+0.25,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,36,0.02878831275846257,0.0,0.0
+0.25,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,36,0.028788312758462584,0.0,0.0
+0.25,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,last_value,36,0.046629316479100895,0.0,0.0
+0.25,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,34,0.019871934621350215,0.0,0.0
+0.25,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,34,0.019871934621350215,0.0,0.0
+0.25,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,34,0.019871934621350215,0.0,0.0
+0.25,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,last_value,34,0.019106904197575547,0.0,0.0
+0.25,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,38,0.030484951207202106,0.0,0.0
+0.25,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,38,0.030484951207202116,0.0,0.0
+0.25,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,38,0.030484951207202106,0.0,0.0
+0.25,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,last_value,38,0.04744278774269646,0.0,0.0
+0.25,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,35,0.03491789938818322,0.0,0.0
+0.25,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,35,0.034917899388183224,0.0,0.0
+0.25,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,35,0.03491789938818322,0.0,0.0
+0.25,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,last_value,35,0.047138546891668485,0.0,0.0
+0.25,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,38,0.03253612907154777,0.0,0.0
+0.25,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,38,0.03253612907154777,0.0,0.0
+0.25,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,38,0.03253612907154777,0.0,0.0
+0.25,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,last_value,38,0.04435894525741806,0.0,0.0
+0.25,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,37,0.03818615395818328,0.0,0.0
+0.25,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,37,0.03818615395818328,0.0,0.0
+0.25,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,37,0.03818615395818328,0.0,0.0
+0.25,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,last_value,37,0.057714842165251856,0.0,0.0
+0.25,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,37,0.029754174743715566,0.0,0.0
+0.25,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,37,0.029754174743715566,0.0,0.0
+0.25,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,37,0.029754174743715566,0.0,0.0
+0.25,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,last_value,37,0.04998036814156187,0.0,0.0
+0.25,Pick up two cardboard boxes from the blue plastic basket,adaptive_request,324,0.022682098957318684,0.0,0.0
+0.25,Pick up two cardboard boxes from the blue plastic basket,constant_velocity,324,0.022682098957318684,0.0,0.0
+0.25,Pick up two cardboard boxes from the blue plastic basket,fixed_interval,324,0.022682098957318684,0.0,0.0
+0.25,Pick up two cardboard boxes from the blue plastic basket,last_value,324,0.07661400170496287,0.0,0.0
+0.25,Pick up two packs of black snacks from the shelf and put them back into the box,adaptive_request,46,0.025136782935865652,0.0,0.0
+0.25,Pick up two packs of black snacks from the shelf and put them back into the box,constant_velocity,46,0.025136782935865656,0.0,0.0
+0.25,Pick up two packs of black snacks from the shelf and put them back into the box,fixed_interval,46,0.025136782935865652,0.0,0.0
+0.25,Pick up two packs of black snacks from the shelf and put them back into the box,last_value,46,0.05640120789726836,0.0,0.0
+0.25,Pick up two packs of green snacks from the shelf and rearrange them,adaptive_request,30,0.02617794560264528,0.0,0.0
+0.25,Pick up two packs of green snacks from the shelf and rearrange them,constant_velocity,30,0.02617794560264527,0.0,0.0
+0.25,Pick up two packs of green snacks from the shelf and rearrange them,fixed_interval,30,0.02617794560264528,0.0,0.0
+0.25,Pick up two packs of green snacks from the shelf and rearrange them,last_value,30,0.04437725336498476,0.0,0.0
+0.25,Pick up two packs of orange snacks from the shelf and put them back into the box,adaptive_request,30,0.024555627486060338,0.0,0.0
+0.25,Pick up two packs of orange snacks from the shelf and put them back into the box,constant_velocity,30,0.024555627486060327,0.0,0.0
+0.25,Pick up two packs of orange snacks from the shelf and put them back into the box,fixed_interval,30,0.024555627486060338,0.0,0.0
+0.25,Pick up two packs of orange snacks from the shelf and put them back into the box,last_value,30,0.03891362803869485,0.0,0.0
+0.25,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,adaptive_request,52,0.033662934481207364,0.0,0.0
+0.25,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,constant_velocity,52,0.03366293448120736,0.0,0.0
+0.25,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,fixed_interval,52,0.033662934481207364,0.0,0.0
+0.25,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,last_value,52,0.05820120131729772,0.0,0.0
+0.25,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,adaptive_request,52,0.02627663161571285,0.0,0.0
+0.25,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,constant_velocity,52,0.02627663161571285,0.0,0.0
+0.25,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,fixed_interval,52,0.02627663161571285,0.0,0.0
+0.25,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,last_value,52,0.0577058043338745,0.0,0.0
+0.25,Place the cardboard box on the shelf,adaptive_request,260,0.027399303287052708,0.0,0.0
+0.25,Place the cardboard box on the shelf,constant_velocity,260,0.027399303287052704,0.0,0.0
+0.25,Place the cardboard box on the shelf,fixed_interval,260,0.027399303287052708,0.0,0.0
+0.25,Place the cardboard box on the shelf,last_value,260,0.07580972566697447,0.0,0.0
+0.25,Place the cardboard box with the green mark on the shelf,adaptive_request,68,0.031709263737363304,0.0,0.0
+0.25,Place the cardboard box with the green mark on the shelf,constant_velocity,68,0.031709263737363345,0.0,0.0
+0.25,Place the cardboard box with the green mark on the shelf,fixed_interval,68,0.031709263737363304,0.0,0.0
+0.25,Place the cardboard box with the green mark on the shelf,last_value,68,0.07084767150339705,0.0,0.0
+0.25,Place the cardboard box with the orange label on the shelf,adaptive_request,80,0.03303541775722667,0.0,0.0
+0.25,Place the cardboard box with the orange label on the shelf,constant_velocity,80,0.03303541775722667,0.0,0.0
+0.25,Place the cardboard box with the orange label on the shelf,fixed_interval,80,0.03303541775722667,0.0,0.0
+0.25,Place the cardboard box with the orange label on the shelf,last_value,80,0.07293942439725788,0.0,0.0
+0.25,Place the cardboard box with the yellow label on the shelf,adaptive_request,126,0.02496566932405631,0.0,0.0
+0.25,Place the cardboard box with the yellow label on the shelf,constant_velocity,126,0.024965669324056295,0.0,0.0
+0.25,Place the cardboard box with the yellow label on the shelf,fixed_interval,126,0.02496566932405631,0.0,0.0
+0.25,Place the cardboard box with the yellow label on the shelf,last_value,126,0.07002713549494466,0.0,0.0
+0.25,Place the long cardboard box on the shelf,adaptive_request,72,0.029512499557834235,0.0,0.0
+0.25,Place the long cardboard box on the shelf,constant_velocity,72,0.029512499557834224,0.0,0.0
+0.25,Place the long cardboard box on the shelf,fixed_interval,72,0.029512499557834235,0.0,0.0
+0.25,Place the long cardboard box on the shelf,last_value,72,0.07544988847186693,0.0,0.0
+0.25,Place the pink package on the shelf,adaptive_request,46,0.02353819206292562,0.0,0.0
+0.25,Place the pink package on the shelf,constant_velocity,46,0.023538192062925636,0.0,0.0
+0.25,Place the pink package on the shelf,fixed_interval,46,0.02353819206292562,0.0,0.0
+0.25,Place the pink package on the shelf,last_value,46,0.06944729548000575,0.0,0.0
+0.25,Place the small cardboard box on the shelf,adaptive_request,135,0.02739503681344533,0.0,0.0
+0.25,Place the small cardboard box on the shelf,constant_velocity,135,0.02739503681344533,0.0,0.0
+0.25,Place the small cardboard box on the shelf,fixed_interval,135,0.02739503681344533,0.0,0.0
+0.25,Place the small cardboard box on the shelf,last_value,135,0.07782505772203605,0.0,0.0
+0.25,Place the small cardboard boxes into the blue plastic basket one by one,adaptive_request,375,0.03118292474629357,0.0,0.0
+0.25,Place the small cardboard boxes into the blue plastic basket one by one,constant_velocity,375,0.031182924746293576,0.0,0.0
+0.25,Place the small cardboard boxes into the blue plastic basket one by one,fixed_interval,375,0.03118292474629357,0.0,0.0
+0.25,Place the small cardboard boxes into the blue plastic basket one by one,last_value,375,0.048890823062200536,0.0,0.0
+0.25,Place the two cardboard boxes on the shelf,adaptive_request,447,0.021324392578562733,0.0,0.0
+0.25,Place the two cardboard boxes on the shelf,constant_velocity,447,0.021324392578562733,0.0,0.0
+0.25,Place the two cardboard boxes on the shelf,fixed_interval,447,0.021324392578562733,0.0,0.0
+0.25,Place the two cardboard boxes on the shelf,last_value,447,0.07832772666436952,0.0,0.0
+0.25,Rotate the box on the far left to face outward.,adaptive_request,16,0.019031113032440147,0.0,0.0
+0.25,Rotate the box on the far left to face outward.,constant_velocity,16,0.019031113032440147,0.0,0.0
+0.25,Rotate the box on the far left to face outward.,fixed_interval,16,0.019031113032440147,0.0,0.0
+0.25,Rotate the box on the far left to face outward.,last_value,16,0.023597729948731817,0.0,0.0
+0.25,Rotate the box on the far right to face outward.,adaptive_request,16,0.022364973091600064,0.0,0.0
+0.25,Rotate the box on the far right to face outward.,constant_velocity,16,0.022364973091600043,0.0,0.0
+0.25,Rotate the box on the far right to face outward.,fixed_interval,16,0.022364973091600064,0.0,0.0
+0.25,Rotate the box on the far right to face outward.,last_value,16,0.02894696173717083,0.0,0.0
+0.25,Rotate the middle box to face outward.,adaptive_request,14,0.026998881982588773,0.0,0.0
+0.25,Rotate the middle box to face outward.,constant_velocity,14,0.02699888198258878,0.0,0.0
+0.25,Rotate the middle box to face outward.,fixed_interval,14,0.026998881982588773,0.0,0.0
+0.25,Rotate the middle box to face outward.,last_value,14,0.031386644043358065,0.0,0.0
+0.25,Take two packs of orange snacks from the box and place them on the shelf,adaptive_request,52,0.026461099677233788,0.0,0.0
+0.25,Take two packs of orange snacks from the box and place them on the shelf,constant_velocity,52,0.026461099677233795,0.0,0.0
+0.25,Take two packs of orange snacks from the box and place them on the shelf,fixed_interval,52,0.026461099677233788,0.0,0.0
+0.25,Take two packs of orange snacks from the box and place them on the shelf,last_value,52,0.04971840524058225,0.0,0.0
+0.25,unlabeled,adaptive_request,5,0.014084336960645896,0.0,0.0
+0.25,unlabeled,constant_velocity,5,0.014084336960645916,0.0,0.0
+0.25,unlabeled,fixed_interval,5,0.014084336960645896,0.0,0.0
+0.25,unlabeled,last_value,5,0.030143587137014517,0.0,0.0
+0.5,Adjust the positions of the three boxes for neat alignment.,adaptive_request,10,0.04520802520730606,0.0,0.0
+0.5,Adjust the positions of the three boxes for neat alignment.,constant_velocity,10,0.04520802520730605,0.0,0.0
+0.5,Adjust the positions of the three boxes for neat alignment.,fixed_interval,10,0.04520802520730606,0.0,0.0
+0.5,Adjust the positions of the three boxes for neat alignment.,last_value,10,0.03016356949739401,0.0,0.0
+0.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,adaptive_request,12,0.05598715072561015,0.0,0.0
+0.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,constant_velocity,12,0.055987150725609273,0.0,0.0
+0.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,fixed_interval,12,0.05598715072561015,0.0,0.0
+0.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,last_value,12,0.04759023307412008,0.0,0.0
+0.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,adaptive_request,20,0.057909464181570544,0.0,0.0
+0.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,constant_velocity,20,0.05790946418157058,0.0,0.0
+0.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,fixed_interval,20,0.057909464181570544,0.0,0.0
+0.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,last_value,20,0.05470725772979451,0.0,0.0
+0.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,adaptive_request,38,0.04982309122189974,0.0,0.0
+0.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,constant_velocity,38,0.04982309122189977,0.0,0.0
+0.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,fixed_interval,38,0.04982309122189974,0.0,0.0
+0.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,last_value,38,0.08283276457072347,0.0,0.0
+0.5,Arrange the cardboard boxes on the shelf,adaptive_request,72,0.05779066308258824,0.0,0.0
+0.5,Arrange the cardboard boxes on the shelf,constant_velocity,72,0.057790663082588255,0.0,0.0
+0.5,Arrange the cardboard boxes on the shelf,fixed_interval,72,0.05779066308258824,0.0,0.0
+0.5,Arrange the cardboard boxes on the shelf,last_value,72,0.07867094397236044,0.0,0.0
+0.5,Arrange two packs of green snacks neatly on the shelf,adaptive_request,20,0.06791519285209298,0.0,0.0
+0.5,Arrange two packs of green snacks neatly on the shelf,constant_velocity,20,0.06791519285209294,0.0,0.0
+0.5,Arrange two packs of green snacks neatly on the shelf,fixed_interval,20,0.06791519285209298,0.0,0.0
+0.5,Arrange two packs of green snacks neatly on the shelf,last_value,20,0.07137570515332917,0.0,0.0
+0.5,Move the leftmost cello SWIFT box to the right and align it,adaptive_request,14,0.031901613563833656,0.0,0.0
+0.5,Move the leftmost cello SWIFT box to the right and align it,constant_velocity,14,0.03190161356383325,0.0,0.0
+0.5,Move the leftmost cello SWIFT box to the right and align it,fixed_interval,14,0.031901613563833656,0.0,0.0
+0.5,Move the leftmost cello SWIFT box to the right and align it,last_value,14,0.027871155270347024,0.0,0.0
+0.5,Move the middle cello SWIFT box to the left and align it,adaptive_request,14,0.03280879112282805,0.0,0.0
+0.5,Move the middle cello SWIFT box to the left and align it,constant_velocity,14,0.03280879112282796,0.0,0.0
+0.5,Move the middle cello SWIFT box to the left and align it,fixed_interval,14,0.03280879112282805,0.0,0.0
+0.5,Move the middle cello SWIFT box to the left and align it,last_value,14,0.026180444180706707,0.0,0.0
+0.5,Move the rightmost cello SWIFT box to the left and align it,adaptive_request,12,0.039841241813507844,0.0,0.0
+0.5,Move the rightmost cello SWIFT box to the left and align it,constant_velocity,12,0.03984124181350796,0.0,0.0
+0.5,Move the rightmost cello SWIFT box to the left and align it,fixed_interval,12,0.039841241813507844,0.0,0.0
+0.5,Move the rightmost cello SWIFT box to the left and align it,last_value,12,0.023489311455780027,0.0,0.0
+0.5,Organize and arrange the small cardboard boxes on the shelf,adaptive_request,12,0.09395301736582419,0.0,0.0
+0.5,Organize and arrange the small cardboard boxes on the shelf,constant_velocity,12,0.09395301736582419,0.0,0.0
+0.5,Organize and arrange the small cardboard boxes on the shelf,fixed_interval,12,0.09395301736582419,0.0,0.0
+0.5,Organize and arrange the small cardboard boxes on the shelf,last_value,12,0.06059193709916777,0.0,0.0
+0.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.06050739087996739,0.0,0.0
+0.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.06050739087996739,0.0,0.0
+0.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.06050739087996739,0.0,0.0
+0.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.07149818266415008,0.0,0.0
+0.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.10106805771302219,0.0,0.0
+0.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.10106805771302219,0.0,0.0
+0.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.10106805771302219,0.0,0.0
+0.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.06671161020014696,0.0,0.0
+0.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.0719054609716403,0.0,0.0
+0.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.07190546097164027,0.0,0.0
+0.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.0719054609716403,0.0,0.0
+0.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.09211022005885348,0.0,0.0
+0.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.05722653694978329,0.0,0.0
+0.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.0572265369497833,0.0,0.0
+0.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.05722653694978329,0.0,0.0
+0.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.07376650195543058,0.0,0.0
+0.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,18,0.037312204183130006,0.0,0.0
+0.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,18,0.037312204183130006,0.0,0.0
+0.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,18,0.037312204183130006,0.0,0.0
+0.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,last_value,18,0.020467081460735986,0.0,0.0
+0.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.06067963080951431,0.0,0.0
+0.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.060679630809514294,0.0,0.0
+0.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.06067963080951431,0.0,0.0
+0.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.08035385106890164,0.0,0.0
+0.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,18,0.0694460643281639,0.0,0.0
+0.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,18,0.0694460643281639,0.0,0.0
+0.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,18,0.0694460643281639,0.0,0.0
+0.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,last_value,18,0.07770694133237609,0.0,0.0
+0.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.08185978691228678,0.0,0.0
+0.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.08185978691228679,0.0,0.0
+0.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.08185978691228678,0.0,0.0
+0.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.07133078512845337,0.0,0.0
+0.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,20,0.10059134029874901,0.0,0.0
+0.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,20,0.10059134029874903,0.0,0.0
+0.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,20,0.10059134029874901,0.0,0.0
+0.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,last_value,20,0.10188468583885593,0.0,0.0
+0.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,19,0.07336356752205662,0.0,0.0
+0.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,19,0.07336356752205664,0.0,0.0
+0.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,19,0.07336356752205662,0.0,0.0
+0.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,last_value,19,0.08551109361338632,0.0,0.0
+0.5,Pick up two cardboard boxes from the blue plastic basket,adaptive_request,172,0.053132140322452885,0.0,0.0
+0.5,Pick up two cardboard boxes from the blue plastic basket,constant_velocity,172,0.053132140322452885,0.0,0.0
+0.5,Pick up two cardboard boxes from the blue plastic basket,fixed_interval,172,0.053132140322452885,0.0,0.0
+0.5,Pick up two cardboard boxes from the blue plastic basket,last_value,172,0.1325106065128236,0.0,0.0
+0.5,Pick up two packs of black snacks from the shelf and put them back into the box,adaptive_request,24,0.05444265070547768,0.0,0.0
+0.5,Pick up two packs of black snacks from the shelf and put them back into the box,constant_velocity,24,0.05444265070547771,0.0,0.0
+0.5,Pick up two packs of black snacks from the shelf and put them back into the box,fixed_interval,24,0.05444265070547768,0.0,0.0
+0.5,Pick up two packs of black snacks from the shelf and put them back into the box,last_value,24,0.09764275516067661,0.0,0.0
+0.5,Pick up two packs of green snacks from the shelf and rearrange them,adaptive_request,16,0.05524811547584465,0.0,0.0
+0.5,Pick up two packs of green snacks from the shelf and rearrange them,constant_velocity,16,0.05524811547584469,0.0,0.0
+0.5,Pick up two packs of green snacks from the shelf and rearrange them,fixed_interval,16,0.05524811547584465,0.0,0.0
+0.5,Pick up two packs of green snacks from the shelf and rearrange them,last_value,16,0.07254500466914963,0.0,0.0
+0.5,Pick up two packs of orange snacks from the shelf and put them back into the box,adaptive_request,16,0.05856628622170144,0.0,0.0
+0.5,Pick up two packs of orange snacks from the shelf and put them back into the box,constant_velocity,16,0.05856628622170138,0.0,0.0
+0.5,Pick up two packs of orange snacks from the shelf and put them back into the box,fixed_interval,16,0.05856628622170144,0.0,0.0
+0.5,Pick up two packs of orange snacks from the shelf and put them back into the box,last_value,16,0.06506507426522568,0.0,0.0
+0.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,adaptive_request,28,0.057932184481105826,0.0,0.0
+0.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,constant_velocity,28,0.057932184481105785,0.0,0.0
+0.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,fixed_interval,28,0.057932184481105826,0.0,0.0
+0.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,last_value,28,0.09722164320401727,0.0,0.0
+0.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,adaptive_request,28,0.05358224342563286,0.0,0.0
+0.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,constant_velocity,28,0.05358224342563283,0.0,0.0
+0.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,fixed_interval,28,0.05358224342563286,0.0,0.0
+0.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,last_value,28,0.0980939901684922,0.0,0.0
+0.5,Place the cardboard box on the shelf,adaptive_request,140,0.060318983181632826,0.0,0.0
+0.5,Place the cardboard box on the shelf,constant_velocity,140,0.060318983181632785,0.0,0.0
+0.5,Place the cardboard box on the shelf,fixed_interval,140,0.060318983181632826,0.0,0.0
+0.5,Place the cardboard box on the shelf,last_value,140,0.13249865970708208,0.0,0.0
+0.5,Place the cardboard box with the green mark on the shelf,adaptive_request,36,0.07507977572540249,0.0,0.0
+0.5,Place the cardboard box with the green mark on the shelf,constant_velocity,36,0.07507977572540246,0.0,0.0
+0.5,Place the cardboard box with the green mark on the shelf,fixed_interval,36,0.07507977572540249,0.0,0.0
+0.5,Place the cardboard box with the green mark on the shelf,last_value,36,0.12123171934183571,0.0,0.0
+0.5,Place the cardboard box with the orange label on the shelf,adaptive_request,43,0.0698086400000882,0.0,0.0
+0.5,Place the cardboard box with the orange label on the shelf,constant_velocity,43,0.06980864000008823,0.0,0.0
+0.5,Place the cardboard box with the orange label on the shelf,fixed_interval,43,0.0698086400000882,0.0,0.0
+0.5,Place the cardboard box with the orange label on the shelf,last_value,43,0.1250943089933514,0.0,0.0
+0.5,Place the cardboard box with the yellow label on the shelf,adaptive_request,66,0.058210315071125354,0.0,0.0
+0.5,Place the cardboard box with the yellow label on the shelf,constant_velocity,66,0.05821031507112529,0.0,0.0
+0.5,Place the cardboard box with the yellow label on the shelf,fixed_interval,66,0.058210315071125354,0.0,0.0
+0.5,Place the cardboard box with the yellow label on the shelf,last_value,66,0.12464132786094928,0.0,0.0
+0.5,Place the long cardboard box on the shelf,adaptive_request,39,0.06240310203117117,0.0,0.0
+0.5,Place the long cardboard box on the shelf,constant_velocity,39,0.06240310203117117,0.0,0.0
+0.5,Place the long cardboard box on the shelf,fixed_interval,39,0.06240310203117117,0.0,0.0
+0.5,Place the long cardboard box on the shelf,last_value,39,0.1303447861691896,0.0,0.0
+0.5,Place the pink package on the shelf,adaptive_request,24,0.06502619699433553,0.0,0.0
+0.5,Place the pink package on the shelf,constant_velocity,24,0.0650261969943354,0.0,0.0
+0.5,Place the pink package on the shelf,fixed_interval,24,0.06502619699433553,0.0,0.0
+0.5,Place the pink package on the shelf,last_value,24,0.11936967419861445,0.0,0.0
+0.5,Place the small cardboard box on the shelf,adaptive_request,72,0.06036176662325957,0.0,0.0
+0.5,Place the small cardboard box on the shelf,constant_velocity,72,0.060361766623259566,0.0,0.0
+0.5,Place the small cardboard box on the shelf,fixed_interval,72,0.06036176662325957,0.0,0.0
+0.5,Place the small cardboard box on the shelf,last_value,72,0.13527840736160737,0.0,0.0
+0.5,Place the small cardboard boxes into the blue plastic basket one by one,adaptive_request,201,0.06256025271607271,0.0,0.0
+0.5,Place the small cardboard boxes into the blue plastic basket one by one,constant_velocity,201,0.06256025271607271,0.0,0.0
+0.5,Place the small cardboard boxes into the blue plastic basket one by one,fixed_interval,201,0.06256025271607271,0.0,0.0
+0.5,Place the small cardboard boxes into the blue plastic basket one by one,last_value,201,0.08078984039037691,0.0,0.0
+0.5,Place the two cardboard boxes on the shelf,adaptive_request,240,0.05205128693122343,0.0,0.0
+0.5,Place the two cardboard boxes on the shelf,constant_velocity,240,0.05205128693122343,0.0,0.0
+0.5,Place the two cardboard boxes on the shelf,fixed_interval,240,0.05205128693122343,0.0,0.0
+0.5,Place the two cardboard boxes on the shelf,last_value,240,0.13753824812090729,0.0,0.0
+0.5,Rotate the box on the far left to face outward.,adaptive_request,8,0.03537852459923162,0.0,0.0
+0.5,Rotate the box on the far left to face outward.,constant_velocity,8,0.035378524599231624,0.0,0.0
+0.5,Rotate the box on the far left to face outward.,fixed_interval,8,0.03537852459923162,0.0,0.0
+0.5,Rotate the box on the far left to face outward.,last_value,8,0.0346408720122192,0.0,0.0
+0.5,Rotate the box on the far right to face outward.,adaptive_request,8,0.05968613967415566,0.0,0.0
+0.5,Rotate the box on the far right to face outward.,constant_velocity,8,0.059686139674155564,0.0,0.0
+0.5,Rotate the box on the far right to face outward.,fixed_interval,8,0.05968613967415566,0.0,0.0
+0.5,Rotate the box on the far right to face outward.,last_value,8,0.0471899576159097,0.0,0.0
+0.5,Rotate the middle box to face outward.,adaptive_request,8,0.07022575113483412,0.0,0.0
+0.5,Rotate the middle box to face outward.,constant_velocity,8,0.07022575113483408,0.0,0.0
+0.5,Rotate the middle box to face outward.,fixed_interval,8,0.07022575113483412,0.0,0.0
+0.5,Rotate the middle box to face outward.,last_value,8,0.04116453889688294,0.0,0.0
+0.5,Take two packs of orange snacks from the box and place them on the shelf,adaptive_request,28,0.05224422129428615,0.0,0.0
+0.5,Take two packs of orange snacks from the box and place them on the shelf,constant_velocity,28,0.0522442212942862,0.0,0.0
+0.5,Take two packs of orange snacks from the box and place them on the shelf,fixed_interval,28,0.05224422129428615,0.0,0.0
+0.5,Take two packs of orange snacks from the box and place them on the shelf,last_value,28,0.08343988401766451,0.0,0.0
+0.5,unlabeled,adaptive_request,3,0.018225548187723525,0.0,0.0
+0.5,unlabeled,constant_velocity,3,0.018225548187723494,0.0,0.0
+0.5,unlabeled,fixed_interval,3,0.018225548187723525,0.0,0.0
+0.5,unlabeled,last_value,3,0.026456099916026415,0.0,0.0
+1.0,Adjust the positions of the three boxes for neat alignment.,adaptive_request,6,0.10097820685347997,0.0,0.0
+1.0,Adjust the positions of the three boxes for neat alignment.,constant_velocity,6,0.10097820685348007,0.0,0.0
+1.0,Adjust the positions of the three boxes for neat alignment.,fixed_interval,6,0.10097820685347997,0.0,0.0
+1.0,Adjust the positions of the three boxes for neat alignment.,last_value,6,0.05423198128951592,0.0,0.0
+1.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,adaptive_request,6,0.09215145101437026,0.0,0.0
+1.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,constant_velocity,6,0.09215145101437143,0.0,0.0
+1.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,fixed_interval,6,0.09215145101437026,0.0,0.0
+1.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,last_value,6,0.07636853341206654,0.0,0.0
+1.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,adaptive_request,10,0.09573472004155371,0.0,0.0
+1.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,constant_velocity,10,0.09573472004155385,0.0,0.0
+1.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,fixed_interval,10,0.09573472004155371,0.0,0.0
+1.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,last_value,10,0.07703909601829165,0.0,0.0
+1.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,adaptive_request,20,0.10387628503842745,0.0,0.0
+1.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,constant_velocity,20,0.10387628503842745,0.0,0.0
+1.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,fixed_interval,20,0.10387628503842745,0.0,0.0
+1.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,last_value,20,0.14444706649766687,0.0,0.0
+1.0,Arrange the cardboard boxes on the shelf,adaptive_request,36,0.15732466315652605,0.0,0.0
+1.0,Arrange the cardboard boxes on the shelf,constant_velocity,36,0.15732466315652607,0.0,0.0
+1.0,Arrange the cardboard boxes on the shelf,fixed_interval,36,0.15732466315652605,0.0,0.0
+1.0,Arrange the cardboard boxes on the shelf,last_value,36,0.12361516074827977,0.0,0.0
+1.0,Arrange two packs of green snacks neatly on the shelf,adaptive_request,10,0.17936090383680384,0.0,0.0
+1.0,Arrange two packs of green snacks neatly on the shelf,constant_velocity,10,0.17936090383680386,0.0,0.0
+1.0,Arrange two packs of green snacks neatly on the shelf,fixed_interval,10,0.17936090383680384,0.0,0.0
+1.0,Arrange two packs of green snacks neatly on the shelf,last_value,10,0.1307758105748113,0.0,0.0
+1.0,Move the leftmost cello SWIFT box to the right and align it,adaptive_request,6,0.05955437240491984,0.0,0.0
+1.0,Move the leftmost cello SWIFT box to the right and align it,constant_velocity,6,0.05955437240492165,0.0,0.0
+1.0,Move the leftmost cello SWIFT box to the right and align it,fixed_interval,6,0.05955437240491984,0.0,0.0
+1.0,Move the leftmost cello SWIFT box to the right and align it,last_value,6,0.028663338406950983,0.0,0.0
+1.0,Move the middle cello SWIFT box to the left and align it,adaptive_request,8,0.11797726211994479,0.0,0.0
+1.0,Move the middle cello SWIFT box to the left and align it,constant_velocity,8,0.11797726211994483,0.0,0.0
+1.0,Move the middle cello SWIFT box to the left and align it,fixed_interval,8,0.11797726211994479,0.0,0.0
+1.0,Move the middle cello SWIFT box to the left and align it,last_value,8,0.052197448111128794,0.0,0.0
+1.0,Move the rightmost cello SWIFT box to the left and align it,adaptive_request,6,0.07761700192338432,0.0,0.0
+1.0,Move the rightmost cello SWIFT box to the left and align it,constant_velocity,6,0.07761700192338404,0.0,0.0
+1.0,Move the rightmost cello SWIFT box to the left and align it,fixed_interval,6,0.07761700192338432,0.0,0.0
+1.0,Move the rightmost cello SWIFT box to the left and align it,last_value,6,0.02740617723140436,0.0,0.0
+1.0,Organize and arrange the small cardboard boxes on the shelf,adaptive_request,6,0.10431661491785253,0.0,0.0
+1.0,Organize and arrange the small cardboard boxes on the shelf,constant_velocity,6,0.10431661491785256,0.0,0.0
+1.0,Organize and arrange the small cardboard boxes on the shelf,fixed_interval,6,0.10431661491785253,0.0,0.0
+1.0,Organize and arrange the small cardboard boxes on the shelf,last_value,6,0.08887539415981106,0.0,0.0
+1.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.13153046543452374,0.0,0.0
+1.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.1315304654345237,0.0,0.0
+1.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.13153046543452374,0.0,0.0
+1.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.12579156403729064,0.0,0.0
+1.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.17922486325757572,0.0,0.0
+1.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.1792248632575757,0.0,0.0
+1.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.17922486325757572,0.0,0.0
+1.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.09217294105401828,0.0,0.0
+1.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.17491701789789127,0.0,0.0
+1.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.17491701789789132,0.0,0.0
+1.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.17491701789789127,0.0,0.0
+1.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.16210202000959895,0.0,0.0
+1.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.1295283700502135,0.0,0.0
+1.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.12952837005021348,0.0,0.0
+1.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.1295283700502135,0.0,0.0
+1.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.14650420776762985,0.0,0.0
+1.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.049796347087582474,0.0,0.0
+1.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.04979634708758251,0.0,0.0
+1.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.049796347087582474,0.0,0.0
+1.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.02639449346748502,0.0,0.0
+1.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.16197974270546134,0.0,0.0
+1.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.1619797427054613,0.0,0.0
+1.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.16197974270546134,0.0,0.0
+1.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.14113509906849453,0.0,0.0
+1.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.12774684719557394,0.0,0.0
+1.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.12774684719557394,0.0,0.0
+1.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.12774684719557394,0.0,0.0
+1.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.12635254585865413,0.0,0.0
+1.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.17591927936583768,0.0,0.0
+1.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.17591927936583768,0.0,0.0
+1.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.17591927936583768,0.0,0.0
+1.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.1303133795964289,0.0,0.0
+1.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.20596244810587216,0.0,0.0
+1.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.20596244810587216,0.0,0.0
+1.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.20596244810587216,0.0,0.0
+1.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.1547979790010341,0.0,0.0
+1.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,10,0.1658168631791826,0.0,0.0
+1.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,10,0.16581686317918265,0.0,0.0
+1.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,10,0.1658168631791826,0.0,0.0
+1.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,last_value,10,0.15147129238695314,0.0,0.0
+1.0,Pick up two cardboard boxes from the blue plastic basket,adaptive_request,90,0.1496999848118516,0.0,0.0
+1.0,Pick up two cardboard boxes from the blue plastic basket,constant_velocity,90,0.1496999848118516,0.0,0.0
+1.0,Pick up two cardboard boxes from the blue plastic basket,fixed_interval,90,0.1496999848118516,0.0,0.0
+1.0,Pick up two cardboard boxes from the blue plastic basket,last_value,90,0.2570693887175167,0.0,0.0
+1.0,Pick up two packs of black snacks from the shelf and put them back into the box,adaptive_request,12,0.15352464653949444,0.0,0.0
+1.0,Pick up two packs of black snacks from the shelf and put them back into the box,constant_velocity,12,0.1535246465394943,0.0,0.0
+1.0,Pick up two packs of black snacks from the shelf and put them back into the box,fixed_interval,12,0.15352464653949444,0.0,0.0
+1.0,Pick up two packs of black snacks from the shelf and put them back into the box,last_value,12,0.16828747158918186,0.0,0.0
+1.0,Pick up two packs of green snacks from the shelf and rearrange them,adaptive_request,8,0.13305861313227807,0.0,0.0
+1.0,Pick up two packs of green snacks from the shelf and rearrange them,constant_velocity,8,0.1330586131322782,0.0,0.0
+1.0,Pick up two packs of green snacks from the shelf and rearrange them,fixed_interval,8,0.13305861313227807,0.0,0.0
+1.0,Pick up two packs of green snacks from the shelf and rearrange them,last_value,8,0.13879247111250928,0.0,0.0
+1.0,Pick up two packs of orange snacks from the shelf and put them back into the box,adaptive_request,8,0.14801571753798512,0.0,0.0
+1.0,Pick up two packs of orange snacks from the shelf and put them back into the box,constant_velocity,8,0.14801571753798504,0.0,0.0
+1.0,Pick up two packs of orange snacks from the shelf and put them back into the box,fixed_interval,8,0.14801571753798512,0.0,0.0
+1.0,Pick up two packs of orange snacks from the shelf and put them back into the box,last_value,8,0.10708616006864789,0.0,0.0
+1.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,adaptive_request,14,0.15441510929895771,0.0,0.0
+1.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,constant_velocity,14,0.15441510929895766,0.0,0.0
+1.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,fixed_interval,14,0.15441510929895771,0.0,0.0
+1.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,last_value,14,0.17823559282163215,0.0,0.0
+1.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,adaptive_request,14,0.12935348003965932,0.0,0.0
+1.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,constant_velocity,14,0.1293534800396592,0.0,0.0
+1.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,fixed_interval,14,0.12935348003965932,0.0,0.0
+1.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,last_value,14,0.1752644336479476,0.0,0.0
+1.0,Place the cardboard box on the shelf,adaptive_request,71,0.15269077053978808,0.0,0.0
+1.0,Place the cardboard box on the shelf,constant_velocity,71,0.15269077053978805,0.0,0.0
+1.0,Place the cardboard box on the shelf,fixed_interval,71,0.15269077053978808,0.0,0.0
+1.0,Place the cardboard box on the shelf,last_value,71,0.2468243427804375,0.0,0.0
+1.0,Place the cardboard box with the green mark on the shelf,adaptive_request,18,0.1614435041527573,0.0,0.0
+1.0,Place the cardboard box with the green mark on the shelf,constant_velocity,18,0.16144350415275727,0.0,0.0
+1.0,Place the cardboard box with the green mark on the shelf,fixed_interval,18,0.1614435041527573,0.0,0.0
+1.0,Place the cardboard box with the green mark on the shelf,last_value,18,0.2200639394688208,0.0,0.0
+1.0,Place the cardboard box with the orange label on the shelf,adaptive_request,22,0.15647372276048366,0.0,0.0
+1.0,Place the cardboard box with the orange label on the shelf,constant_velocity,22,0.15647372276048357,0.0,0.0
+1.0,Place the cardboard box with the orange label on the shelf,fixed_interval,22,0.15647372276048366,0.0,0.0
+1.0,Place the cardboard box with the orange label on the shelf,last_value,22,0.22093984903291258,0.0,0.0
+1.0,Place the cardboard box with the yellow label on the shelf,adaptive_request,33,0.1413966048458729,0.0,0.0
+1.0,Place the cardboard box with the yellow label on the shelf,constant_velocity,33,0.1413966048458728,0.0,0.0
+1.0,Place the cardboard box with the yellow label on the shelf,fixed_interval,33,0.1413966048458729,0.0,0.0
+1.0,Place the cardboard box with the yellow label on the shelf,last_value,33,0.23660199671276783,0.0,0.0
+1.0,Place the long cardboard box on the shelf,adaptive_request,22,0.1394946329588027,0.0,0.0
+1.0,Place the long cardboard box on the shelf,constant_velocity,22,0.13949463295880266,0.0,0.0
+1.0,Place the long cardboard box on the shelf,fixed_interval,22,0.1394946329588027,0.0,0.0
+1.0,Place the long cardboard box on the shelf,last_value,22,0.23742974505963502,0.0,0.0
+1.0,Place the pink package on the shelf,adaptive_request,12,0.20335284506943951,0.0,0.0
+1.0,Place the pink package on the shelf,constant_velocity,12,0.2033528450694392,0.0,0.0
+1.0,Place the pink package on the shelf,fixed_interval,12,0.20335284506943951,0.0,0.0
+1.0,Place the pink package on the shelf,last_value,12,0.21259880733561268,0.0,0.0
+1.0,Place the small cardboard box on the shelf,adaptive_request,36,0.13742107730824246,0.0,0.0
+1.0,Place the small cardboard box on the shelf,constant_velocity,36,0.1374210773082426,0.0,0.0
+1.0,Place the small cardboard box on the shelf,fixed_interval,36,0.13742107730824246,0.0,0.0
+1.0,Place the small cardboard box on the shelf,last_value,36,0.25762818526268955,0.0,0.0
+1.0,Place the small cardboard boxes into the blue plastic basket one by one,adaptive_request,102,0.13975010626584183,0.0,0.0
+1.0,Place the small cardboard boxes into the blue plastic basket one by one,constant_velocity,102,0.13975010626584183,0.0,0.0
+1.0,Place the small cardboard boxes into the blue plastic basket one by one,fixed_interval,102,0.13975010626584183,0.0,0.0
+1.0,Place the small cardboard boxes into the blue plastic basket one by one,last_value,102,0.14441914810111847,0.0,0.0
+1.0,Place the two cardboard boxes on the shelf,adaptive_request,118,0.14918166907363797,0.0,0.0
+1.0,Place the two cardboard boxes on the shelf,constant_velocity,118,0.14918166907363803,0.0,0.0
+1.0,Place the two cardboard boxes on the shelf,fixed_interval,118,0.14918166907363797,0.0,0.0
+1.0,Place the two cardboard boxes on the shelf,last_value,118,0.2527966878157304,0.0,0.0
+1.0,Rotate the box on the far left to face outward.,adaptive_request,4,0.10447554295787076,0.0,0.0
+1.0,Rotate the box on the far left to face outward.,constant_velocity,4,0.10447554295787087,0.0,0.0
+1.0,Rotate the box on the far left to face outward.,fixed_interval,4,0.10447554295787076,0.0,0.0
+1.0,Rotate the box on the far left to face outward.,last_value,4,0.04032731911556392,0.0,0.0
+1.0,Rotate the box on the far right to face outward.,adaptive_request,4,0.12656961100690184,0.0,0.0
+1.0,Rotate the box on the far right to face outward.,constant_velocity,4,0.126569611006902,0.0,0.0
+1.0,Rotate the box on the far right to face outward.,fixed_interval,4,0.12656961100690184,0.0,0.0
+1.0,Rotate the box on the far right to face outward.,last_value,4,0.0551862305936197,0.0,0.0
+1.0,Rotate the middle box to face outward.,adaptive_request,4,0.1127956043332895,0.0,0.0
+1.0,Rotate the middle box to face outward.,constant_velocity,4,0.11279560433328965,0.0,0.0
+1.0,Rotate the middle box to face outward.,fixed_interval,4,0.1127956043332895,0.0,0.0
+1.0,Rotate the middle box to face outward.,last_value,4,0.049354625419166506,0.0,0.0
+1.0,Take two packs of orange snacks from the box and place them on the shelf,adaptive_request,14,0.13908240600242067,0.0,0.0
+1.0,Take two packs of orange snacks from the box and place them on the shelf,constant_velocity,14,0.13908240600242072,0.0,0.0
+1.0,Take two packs of orange snacks from the box and place them on the shelf,fixed_interval,14,0.13908240600242067,0.0,0.0
+1.0,Take two packs of orange snacks from the box and place them on the shelf,last_value,14,0.14581706110978246,0.0,0.0
+1.0,unlabeled,adaptive_request,3,0.018225548187723525,0.0,0.0
+1.0,unlabeled,constant_velocity,3,0.018225548187723494,0.0,0.0
+1.0,unlabeled,fixed_interval,3,0.018225548187723525,0.0,0.0
+1.0,unlabeled,last_value,3,0.026456099916026415,0.0,0.0
+1.5,Adjust the positions of the three boxes for neat alignment.,adaptive_request,4,0.1284166554731283,0.5,0.5
+1.5,Adjust the positions of the three boxes for neat alignment.,constant_velocity,4,0.17585398691837412,0.0,0.0
+1.5,Adjust the positions of the three boxes for neat alignment.,fixed_interval,4,0.17106689518078688,0.5,0.5
+1.5,Adjust the positions of the three boxes for neat alignment.,last_value,4,0.042488372500237834,0.0,0.0
+1.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,adaptive_request,4,0.08373044414760236,0.5,0.5
+1.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,constant_velocity,4,0.12183093765632173,0.0,0.0
+1.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,fixed_interval,4,0.11776317462942246,0.5,0.5
+1.5,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,last_value,4,0.05425404788412071,0.0,0.0
+1.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,adaptive_request,6,0.09782847769926288,1.0,1.0
+1.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,constant_velocity,6,0.16219017482191087,0.0,0.0
+1.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,fixed_interval,6,0.15488243582159258,1.0,1.0
+1.5,Arrange multiple packs of orange snacks into a neat stack on the shelf,last_value,6,0.12093531196003066,0.0,0.0
+1.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,adaptive_request,14,0.10060064438723759,0.8571428571428571,0.8571428571428571
+1.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,constant_velocity,14,0.18575757343705884,0.0,0.0
+1.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,fixed_interval,14,0.1767067557076797,0.8571428571428571,0.8571428571428571
+1.5,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,last_value,14,0.20380956499506428,0.0,0.0
+1.5,Arrange the cardboard boxes on the shelf,adaptive_request,24,0.15887089443421368,1.0,1.0
+1.5,Arrange the cardboard boxes on the shelf,constant_velocity,24,0.3053237409343952,0.0,0.0
+1.5,Arrange the cardboard boxes on the shelf,fixed_interval,24,0.29179495516479553,0.9166666666666666,0.9166666666666666
+1.5,Arrange the cardboard boxes on the shelf,last_value,24,0.18552202091645717,0.0,0.0
+1.5,Arrange two packs of green snacks neatly on the shelf,adaptive_request,8,0.11550250032545681,1.0,1.0
+1.5,Arrange two packs of green snacks neatly on the shelf,constant_velocity,8,0.2331561857557178,0.0,0.0
+1.5,Arrange two packs of green snacks neatly on the shelf,fixed_interval,8,0.22146850388156006,1.0,1.0
+1.5,Arrange two packs of green snacks neatly on the shelf,last_value,8,0.17697630410827148,0.0,0.0
+1.5,Move the leftmost cello SWIFT box to the right and align it,adaptive_request,4,0.039578182200152995,1.0,1.0
+1.5,Move the leftmost cello SWIFT box to the right and align it,constant_velocity,4,0.0555096901229366,0.0,0.0
+1.5,Move the leftmost cello SWIFT box to the right and align it,fixed_interval,4,0.053204789524089836,1.0,1.0
+1.5,Move the leftmost cello SWIFT box to the right and align it,last_value,4,0.04147774307416653,0.0,0.0
+1.5,Move the middle cello SWIFT box to the left and align it,adaptive_request,6,0.10566702360023071,1.0,1.0111110210418701
+1.5,Move the middle cello SWIFT box to the left and align it,constant_velocity,6,0.18656856272031608,0.0,0.0
+1.5,Move the middle cello SWIFT box to the left and align it,fixed_interval,6,0.1786598114835448,1.0,1.0
+1.5,Move the middle cello SWIFT box to the left and align it,last_value,6,0.07096514404212752,0.0,0.0
+1.5,Move the rightmost cello SWIFT box to the left and align it,adaptive_request,4,0.07211111190527826,1.0,1.0166667215526104
+1.5,Move the rightmost cello SWIFT box to the left and align it,constant_velocity,4,0.1281385964084159,0.0,0.0
+1.5,Move the rightmost cello SWIFT box to the left and align it,fixed_interval,4,0.12466228034587282,0.5,0.5
+1.5,Move the rightmost cello SWIFT box to the left and align it,last_value,4,0.039460111110023115,0.0,0.0
+1.5,Organize and arrange the small cardboard boxes on the shelf,adaptive_request,4,0.09088660798304807,1.0,1.0
+1.5,Organize and arrange the small cardboard boxes on the shelf,constant_velocity,4,0.1678537470148568,0.0,0.0
+1.5,Organize and arrange the small cardboard boxes on the shelf,fixed_interval,4,0.16785374701485678,0.0,0.0
+1.5,Organize and arrange the small cardboard boxes on the shelf,last_value,4,0.09332659068496868,0.0,0.0
+1.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,8,0.13257081992395425,0.875,0.87502975
+1.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,8,0.24105016068713106,0.0,0.0
+1.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,8,0.2303321028291212,0.875,0.875028875
+1.5,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,last_value,8,0.15140461253361326,0.0,0.0
+1.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,7,0.16152826536805098,0.8571428571428571,0.857171857142857
+1.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,7,0.26747480846467075,0.0,0.0
+1.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,7,0.2564164109790904,0.8571428571428571,0.8571711428571415
+1.5,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,last_value,7,0.15743406808761914,0.0,0.0
+1.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.14248904024661893,1.0,1.0000334999999996
+1.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.28007740334248354,0.0,0.0
+1.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.2656554450210858,1.0,1.0000329999999995
+1.5,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.1885542754426669,0.0,0.0
+1.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,8,0.10817003230104644,1.0,1.0000334999999996
+1.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,8,0.2117476105911317,0.0,0.0
+1.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,8,0.20107735035038332,1.0,1.0000330000000002
+1.5,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,last_value,8,0.19735286674878344,0.0,0.0
+1.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,7,0.05803308157443513,0.7142857142857143,0.7143099999999996
+1.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,7,0.0871805118779293,0.0,0.0
+1.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,7,0.08439365842049258,0.7142857142857143,0.7143092857142851
+1.5,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,last_value,7,0.03443012110292264,0.0,0.0
+1.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.15117444542507005,1.0,1.0000339999999994
+1.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.2977449094948129,0.0,0.0
+1.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.28351272735920063,1.0,1.0000329999999995
+1.5,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.1588064096850151,0.0,0.0
+1.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.12734182583636608,0.8333333333333334,0.8333613333333333
+1.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.2356936275447785,0.0,0.0
+1.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.22466699689865796,0.8333333333333334,0.833360833333333
+1.5,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.18824723216581185,0.0,0.0
+1.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,7,0.13592733649261043,1.0,1.0000335714285724
+1.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,7,0.23798048268270092,0.0,0.0
+1.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,7,0.22718457139621748,1.0,1.000033
+1.5,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,last_value,7,0.15494602297513277,0.0,0.0
+1.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,7,0.1637163710581615,0.8571428571428571,0.857171571428571
+1.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,7,0.28880825450564834,0.0,0.0
+1.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,7,0.2753464203884465,0.8571428571428571,0.8571711428571435
+1.5,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,last_value,7,0.20513971724641383,0.0,0.0
+1.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.19783784597690657,1.0,1.0000334999999991
+1.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.3654911204870965,0.0,0.0
+1.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.34910117602752666,1.0,1.0000330000000002
+1.5,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.2364729717026334,0.0,0.0
+1.5,Pick up two cardboard boxes from the blue plastic basket,adaptive_request,60,0.13738921961119047,1.0,1.0
+1.5,Pick up two cardboard boxes from the blue plastic basket,constant_velocity,60,0.27877957250992413,0.0,0.0
+1.5,Pick up two cardboard boxes from the blue plastic basket,fixed_interval,60,0.2643179339195769,0.9333333333333333,0.9333333334000001
+1.5,Pick up two cardboard boxes from the blue plastic basket,last_value,60,0.3745001420555727,0.0,0.0
+1.5,Pick up two packs of black snacks from the shelf and put them back into the box,adaptive_request,8,0.15058860624825834,1.0,1.0
+1.5,Pick up two packs of black snacks from the shelf and put them back into the box,constant_velocity,8,0.2730945473532877,0.0,0.0
+1.5,Pick up two packs of black snacks from the shelf and put them back into the box,fixed_interval,8,0.26066449809642994,1.0,1.0
+1.5,Pick up two packs of black snacks from the shelf and put them back into the box,last_value,8,0.20669896251923617,0.0,0.0
+1.5,Pick up two packs of green snacks from the shelf and rearrange them,adaptive_request,6,0.11083328397334698,1.0,1.0
+1.5,Pick up two packs of green snacks from the shelf and rearrange them,constant_velocity,6,0.19229925807774184,0.0,0.0
+1.5,Pick up two packs of green snacks from the shelf and rearrange them,fixed_interval,6,0.18361424403531804,1.0,1.0
+1.5,Pick up two packs of green snacks from the shelf and rearrange them,last_value,6,0.19071297345615126,0.0,0.0
+1.5,Pick up two packs of orange snacks from the shelf and put them back into the box,adaptive_request,6,0.12131284058095872,1.0,0.9999999999999994
+1.5,Pick up two packs of orange snacks from the shelf and put them back into the box,constant_velocity,6,0.19493578976511236,0.0,0.0
+1.5,Pick up two packs of orange snacks from the shelf and put them back into the box,fixed_interval,6,0.18895099731200352,0.6666666666666666,0.666666667
+1.5,Pick up two packs of orange snacks from the shelf and put them back into the box,last_value,6,0.1706514584520713,0.0,0.0
+1.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,adaptive_request,8,0.18096227507249482,1.0,1.0
+1.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,constant_velocity,8,0.3438629197669932,0.0,0.0
+1.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,fixed_interval,8,0.3273913427175369,1.0,1.0
+1.5,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,last_value,8,0.27790700756304765,0.0,0.0
+1.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,adaptive_request,8,0.10607622482375459,1.0,1.0
+1.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,constant_velocity,8,0.21060218866811828,0.0,0.0
+1.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,fixed_interval,8,0.1982310122912756,1.0,1.0
+1.5,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,last_value,8,0.21756779321612227,0.0,0.0
+1.5,Place the cardboard box on the shelf,adaptive_request,47,0.15192836575375554,1.0,1.0
+1.5,Place the cardboard box on the shelf,constant_velocity,47,0.2909787454845217,0.0,0.0
+1.5,Place the cardboard box on the shelf,fixed_interval,47,0.2765008556279402,0.9574468085106383,0.9574468085106383
+1.5,Place the cardboard box on the shelf,last_value,47,0.34760009313283236,0.0,0.0
+1.5,Place the cardboard box with the green mark on the shelf,adaptive_request,12,0.1478644629362232,1.0,1.0
+1.5,Place the cardboard box with the green mark on the shelf,constant_velocity,12,0.2600656651911783,0.0,0.0
+1.5,Place the cardboard box with the green mark on the shelf,fixed_interval,12,0.246899857528689,1.0,1.0
+1.5,Place the cardboard box with the green mark on the shelf,last_value,12,0.3601210875701218,0.0,0.0
+1.5,Place the cardboard box with the orange label on the shelf,adaptive_request,15,0.12518918063873422,0.8,0.8
+1.5,Place the cardboard box with the orange label on the shelf,constant_velocity,15,0.22796280748697198,0.0,0.0
+1.5,Place the cardboard box with the orange label on the shelf,fixed_interval,15,0.21660902149724479,0.8,0.8022221999999997
+1.5,Place the cardboard box with the orange label on the shelf,last_value,15,0.24920805138594088,0.0,0.0
+1.5,Place the cardboard box with the yellow label on the shelf,adaptive_request,23,0.11671154735723555,0.8695652173913043,0.8695652173913043
+1.5,Place the cardboard box with the yellow label on the shelf,constant_velocity,23,0.20591550584514004,0.0,0.0
+1.5,Place the cardboard box with the yellow label on the shelf,fixed_interval,23,0.19664199969500898,0.8260869565217391,0.8260869565217391
+1.5,Place the cardboard box with the yellow label on the shelf,last_value,23,0.3224693456637538,0.0,0.0
+1.5,Place the long cardboard box on the shelf,adaptive_request,14,0.167222810271048,1.0,0.9999999999999998
+1.5,Place the long cardboard box on the shelf,constant_velocity,14,0.32629392372396177,0.0,0.0
+1.5,Place the long cardboard box on the shelf,fixed_interval,14,0.3143203236308532,0.6428571428571429,0.6428571428571429
+1.5,Place the long cardboard box on the shelf,last_value,14,0.3969940709761435,0.0,0.0
+1.5,Place the pink package on the shelf,adaptive_request,8,0.17240260979452182,1.0,1.0083332500000002
+1.5,Place the pink package on the shelf,constant_velocity,8,0.40044873322751573,0.0,0.0
+1.5,Place the pink package on the shelf,fixed_interval,8,0.39264051344648293,0.5,0.5
+1.5,Place the pink package on the shelf,last_value,8,0.24955252417777188,0.0,0.0
+1.5,Place the small cardboard box on the shelf,adaptive_request,24,0.14189793910136753,1.0,1.0000000000000007
+1.5,Place the small cardboard box on the shelf,constant_velocity,24,0.2622560880998283,0.0,0.0
+1.5,Place the small cardboard box on the shelf,fixed_interval,24,0.24930031527240712,0.9583333333333334,0.9583333333333336
+1.5,Place the small cardboard box on the shelf,last_value,24,0.3646072369308276,0.0,0.0
+1.5,Place the small cardboard boxes into the blue plastic basket one by one,adaptive_request,69,0.12389907762326056,0.9420289855072463,0.9439613333333334
+1.5,Place the small cardboard boxes into the blue plastic basket one by one,constant_velocity,69,0.22881281006309803,0.0,0.0
+1.5,Place the small cardboard boxes into the blue plastic basket one by one,fixed_interval,69,0.21819591049929965,0.8985507246376812,0.8990338260869565
+1.5,Place the small cardboard boxes into the blue plastic basket one by one,last_value,69,0.2065354180608867,0.0,0.0
+1.5,Place the two cardboard boxes on the shelf,adaptive_request,78,0.13189651430393332,0.9743589743589743,0.9760683846153845
+1.5,Place the two cardboard boxes on the shelf,constant_velocity,78,0.27450720481554075,0.0,0.0
+1.5,Place the two cardboard boxes on the shelf,fixed_interval,78,0.2601519977956608,0.9487179487179487,0.9495726409999998
+1.5,Place the two cardboard boxes on the shelf,last_value,78,0.35137806024802615,0.0,0.0
+1.5,Rotate the box on the far left to face outward.,adaptive_request,2,0.0875088667982446,1.0,1.0
+1.5,Rotate the box on the far left to face outward.,constant_velocity,2,0.1426523644393939,0.0,0.0
+1.5,Rotate the box on the far left to face outward.,fixed_interval,2,0.1363982021060236,1.0,1.0
+1.5,Rotate the box on the far left to face outward.,last_value,2,0.06714331902390117,0.0,0.0
+1.5,Rotate the box on the far right to face outward.,adaptive_request,4,0.13013650603691188,1.0,1.0166667215526104
+1.5,Rotate the box on the far right to face outward.,constant_velocity,4,0.25177947602133466,0.0,0.0
+1.5,Rotate the box on the far right to face outward.,fixed_interval,4,0.24120371917279393,0.5,0.5
+1.5,Rotate the box on the far right to face outward.,last_value,4,0.0838907921743208,0.0,0.0
+1.5,Rotate the middle box to face outward.,adaptive_request,2,0.09032410686460997,1.0,1.0333330631256104
+1.5,Rotate the middle box to face outward.,constant_velocity,2,0.1546321366646269,0.0,0.0
+1.5,Rotate the middle box to face outward.,fixed_interval,2,0.1483295250894225,1.0,1.0
+1.5,Rotate the middle box to face outward.,last_value,2,0.0931073097791855,0.0,0.0
+1.5,Take two packs of orange snacks from the box and place them on the shelf,adaptive_request,10,0.13704420329990413,1.0,1.0066666000000002
+1.5,Take two packs of orange snacks from the box and place them on the shelf,constant_velocity,10,0.28392564377886015,0.0,0.0
+1.5,Take two packs of orange snacks from the box and place them on the shelf,fixed_interval,10,0.27201877224911797,0.6,0.6
+1.5,Take two packs of orange snacks from the box and place them on the shelf,last_value,10,0.17788292318125876,0.0,0.0
+2.0,Adjust the positions of the three boxes for neat alignment.,adaptive_request,4,0.09528564184294679,0.5,0.5
+2.0,Adjust the positions of the three boxes for neat alignment.,constant_velocity,4,0.1719786522924515,0.0,0.0
+2.0,Adjust the positions of the three boxes for neat alignment.,fixed_interval,4,0.10469908797690111,0.5,0.5
+2.0,Adjust the positions of the three boxes for neat alignment.,last_value,4,0.05119251576353803,0.0,0.0
+2.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,adaptive_request,4,0.08855640834195941,0.5,0.5
+2.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,constant_velocity,4,0.16499133450268796,0.0,0.0
+2.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,fixed_interval,4,0.10718214098935405,0.5,0.5
+2.0,Adjust the positions of the three cello SWIFT boxes for a neat arrangement,last_value,4,0.09679751505134744,0.0,0.0
+2.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,adaptive_request,6,0.10582351350327678,1.0,1.0
+2.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,constant_velocity,6,0.21220208381192784,0.0,0.0
+2.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,fixed_interval,6,0.12740813756901284,1.0,1.0
+2.0,Arrange multiple packs of orange snacks into a neat stack on the shelf,last_value,6,0.1474294931286388,0.0,0.0
+2.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,adaptive_request,10,0.11265458788505847,0.8,0.8
+2.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,constant_velocity,10,0.242877122567982,0.0,0.0
+2.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,fixed_interval,10,0.14581264789320889,0.8,0.8
+2.0,Arrange multiple packs of orange strip snacks into a neat stack on the shelf,last_value,10,0.21189060878829954,0.0,0.0
+2.0,Arrange the cardboard boxes on the shelf,adaptive_request,18,0.16273538986495345,1.0,1.0
+2.0,Arrange the cardboard boxes on the shelf,constant_velocity,18,0.31738106251926446,0.0,0.0
+2.0,Arrange the cardboard boxes on the shelf,fixed_interval,18,0.2004562324638823,0.8888888888888888,0.8888888888888888
+2.0,Arrange the cardboard boxes on the shelf,last_value,18,0.19534043628889608,0.0,0.0
+2.0,Arrange two packs of green snacks neatly on the shelf,adaptive_request,4,0.16075557440381516,1.0,1.0000000005000018
+2.0,Arrange two packs of green snacks neatly on the shelf,constant_velocity,4,0.4247946603282198,0.0,0.0
+2.0,Arrange two packs of green snacks neatly on the shelf,fixed_interval,4,0.24814364339839456,1.0,1.0
+2.0,Arrange two packs of green snacks neatly on the shelf,last_value,4,0.20382208939228474,0.0,0.0
+2.0,Move the leftmost cello SWIFT box to the right and align it,adaptive_request,2,0.032368850621336896,1.0,1.0
+2.0,Move the leftmost cello SWIFT box to the right and align it,constant_velocity,2,0.0692911055820146,0.0,0.0
+2.0,Move the leftmost cello SWIFT box to the right and align it,fixed_interval,2,0.04208032826104216,1.0,1.0
+2.0,Move the leftmost cello SWIFT box to the right and align it,last_value,2,0.03908462505137093,0.0,0.0
+2.0,Move the middle cello SWIFT box to the left and align it,adaptive_request,4,0.10687665777914139,1.0,1.0
+2.0,Move the middle cello SWIFT box to the left and align it,constant_velocity,4,0.22645758666536664,0.0,0.0
+2.0,Move the middle cello SWIFT box to the left and align it,fixed_interval,4,0.13879787828820972,1.0,1.0
+2.0,Move the middle cello SWIFT box to the left and align it,last_value,4,0.06765893368004718,0.0,0.0
+2.0,Move the rightmost cello SWIFT box to the left and align it,adaptive_request,4,0.09095403615823974,1.0,1.000000011175871
+2.0,Move the rightmost cello SWIFT box to the left and align it,constant_velocity,4,0.1758879701459632,0.0,0.0
+2.0,Move the rightmost cello SWIFT box to the left and align it,fixed_interval,4,0.10775520474058949,1.0,1.0166666805744171
+2.0,Move the rightmost cello SWIFT box to the left and align it,last_value,4,0.06135087538611573,0.0,0.0
+2.0,Organize and arrange the small cardboard boxes on the shelf,adaptive_request,4,0.14428538502862487,1.0,1.0
+2.0,Organize and arrange the small cardboard boxes on the shelf,constant_velocity,4,0.26675554494689047,0.0,0.0
+2.0,Organize and arrange the small cardboard boxes on the shelf,fixed_interval,4,0.15175687516265138,1.0,1.0
+2.0,Organize and arrange the small cardboard boxes on the shelf,last_value,4,0.21100666098925247,0.0,0.0
+2.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.15716226867494798,1.0,1.0000333333333333
+2.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.29984430437628323,0.0,0.0
+2.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.19086279706241985,1.0,1.0000333333333333
+2.0,Pick up a cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.1949477059091976,0.0,0.0
+2.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,5,0.16816419398881582,0.8,0.8000268000000006
+2.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,5,0.3666729423265222,0.0,0.0
+2.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,5,0.22189625957126405,0.8,0.8000263999999987
+2.0,Pick up the eighth cardboard box from the shelf and put it into the blue plastic basket.,last_value,5,0.1418670655972489,0.0,0.0
+2.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.23481291384773972,1.0,1.0000333333333333
+2.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.35894968633164753,0.0,0.0
+2.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.24189180431279733,1.0,1.0000333333333333
+2.0,Pick up the fifth cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.33240489278693547,0.0,0.0
+2.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,4,0.17100641849002748,1.0,1.0000332500000004
+2.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,4,0.32837991649781995,0.0,0.0
+2.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,4,0.19555087943032776,1.0,1.0000335000000007
+2.0,Pick up the fourth cardboard box from the shelf and put it into the blue plastic basket.,last_value,4,0.21620944185464977,0.0,0.0
+2.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,5,0.045530064723731625,0.6,0.6000200000000007
+2.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,5,0.0866923401256158,0.0,0.0
+2.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,5,0.058459383314808766,0.6,0.6000200000000007
+2.0,Pick up the last cardboard box from the shelf and put it into the blue plastic basket.,last_value,5,0.022513414995123163,0.0,0.0
+2.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.19594814558585763,1.0,1.0000333333333344
+2.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.365818566392022,0.0,0.0
+2.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.22609636230482677,1.0,1.0000333333333344
+2.0,Pick up the ninth cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.2501610961471725,0.0,0.0
+2.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,4,0.18013652107041755,1.0,1.0000332500000002
+2.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,4,0.4478695389946665,0.0,0.0
+2.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,4,0.26632834169435543,1.0,1.0000332500000007
+2.0,Pick up the second cardboard box from the shelf and put it into the blue plastic basket.,last_value,4,0.25529937270949543,0.0,0.0
+2.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,5,0.1530079777004128,1.0,1.0000334002000009
+2.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,5,0.28777274472994196,0.0,0.0
+2.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,5,0.16424840041857128,1.0,1.0000333999999989
+2.0,Pick up the seventh cardboard box from the shelf and put it into the blue plastic basket.,last_value,5,0.21474759566655416,0.0,0.0
+2.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,5,0.1959370698864226,0.8,0.8000265999999996
+2.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,5,0.4700441237028664,0.0,0.0
+2.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,5,0.27682283472329355,0.8,0.8000266000000004
+2.0,Pick up the sixth cardboard box from the shelf and put it into the blue plastic basket.,last_value,5,0.1925041467057617,0.0,0.0
+2.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,adaptive_request,6,0.19369033061211316,1.0,1.0000333333333336
+2.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,constant_velocity,6,0.3934715111872468,0.0,0.0
+2.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,fixed_interval,6,0.23056939840151103,1.0,1.0000333333333336
+2.0,Pick up the third cardboard box from the shelf and put it into the blue plastic basket.,last_value,6,0.2636078530516153,0.0,0.0
+2.0,Pick up two cardboard boxes from the blue plastic basket,adaptive_request,46,0.1949101287122199,1.0,1.0
+2.0,Pick up two cardboard boxes from the blue plastic basket,constant_velocity,46,0.41806517270337684,0.0,0.0
+2.0,Pick up two cardboard boxes from the blue plastic basket,fixed_interval,46,0.22473337554183467,1.0,1.0000000000434783
+2.0,Pick up two cardboard boxes from the blue plastic basket,last_value,46,0.46567342692991326,0.0,0.0
+2.0,Pick up two packs of black snacks from the shelf and put them back into the box,adaptive_request,6,0.19321586629553664,1.0,1.0
+2.0,Pick up two packs of black snacks from the shelf and put them back into the box,constant_velocity,6,0.32108181869753627,0.0,0.0
+2.0,Pick up two packs of black snacks from the shelf and put them back into the box,fixed_interval,6,0.21432500203721594,1.0,1.0
+2.0,Pick up two packs of black snacks from the shelf and put them back into the box,last_value,6,0.33603681248384326,0.0,0.0
+2.0,Pick up two packs of green snacks from the shelf and rearrange them,adaptive_request,4,0.14424249380783186,1.0,1.0
+2.0,Pick up two packs of green snacks from the shelf and rearrange them,constant_velocity,4,0.31158189452943463,0.0,0.0
+2.0,Pick up two packs of green snacks from the shelf and rearrange them,fixed_interval,4,0.1748561752470738,1.0,1.0
+2.0,Pick up two packs of green snacks from the shelf and rearrange them,last_value,4,0.20229466980774594,0.0,0.0
+2.0,Pick up two packs of orange snacks from the shelf and put them back into the box,adaptive_request,4,0.16014199138557533,1.0,1.0
+2.0,Pick up two packs of orange snacks from the shelf and put them back into the box,constant_velocity,4,0.3231216163792316,0.0,0.0
+2.0,Pick up two packs of orange snacks from the shelf and put them back into the box,fixed_interval,4,0.1904800065272951,1.0,1.0
+2.0,Pick up two packs of orange snacks from the shelf and put them back into the box,last_value,4,0.23661063556668827,0.0,0.0
+2.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,adaptive_request,6,0.20405066116365436,1.0,1.0
+2.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,constant_velocity,6,0.39736129694752176,0.0,0.0
+2.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,fixed_interval,6,0.20993837737110907,1.0,1.0
+2.0,Pick up two packs of orange-wrapped strip snacks from the shelf and place them on the other side,last_value,6,0.30238004424022474,0.0,0.0
+2.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,adaptive_request,8,0.14379709002933447,1.0,1.0
+2.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,constant_velocity,8,0.32589517212141567,0.0,0.0
+2.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,fixed_interval,8,0.1924608988897612,1.0,1.0
+2.0,Pick up two stacks of yellow-wrapped snacks from the shelf and rearrange them,last_value,8,0.3813574307382692,0.0,0.0
+2.0,Place the cardboard box on the shelf,adaptive_request,37,0.192806266484258,0.9459459459459459,0.9459459459459459
+2.0,Place the cardboard box on the shelf,constant_velocity,37,0.4465706497843358,0.0,0.0
+2.0,Place the cardboard box on the shelf,fixed_interval,37,0.2401769136545037,0.9459459459459459,0.9459459459459459
+2.0,Place the cardboard box on the shelf,last_value,37,0.42199917940928333,0.0,0.0
+2.0,Place the cardboard box with the green mark on the shelf,adaptive_request,9,0.19618757568993883,1.0,1.0
+2.0,Place the cardboard box with the green mark on the shelf,constant_velocity,9,0.3866253355467986,0.0,0.0
+2.0,Place the cardboard box with the green mark on the shelf,fixed_interval,9,0.21225825094351755,1.0,1.0
+2.0,Place the cardboard box with the green mark on the shelf,last_value,9,0.38726459474371694,0.0,0.0
+2.0,Place the cardboard box with the orange label on the shelf,adaptive_request,12,0.1925603145181607,0.8333333333333334,0.8333333333333334
+2.0,Place the cardboard box with the orange label on the shelf,constant_velocity,12,0.42628962327918046,0.0,0.0
+2.0,Place the cardboard box with the orange label on the shelf,fixed_interval,12,0.23809421370104067,0.8333333333333334,0.836111083333333
+2.0,Place the cardboard box with the orange label on the shelf,last_value,12,0.3459104573160286,0.0,0.0
+2.0,Place the cardboard box with the yellow label on the shelf,adaptive_request,17,0.16413196344672495,0.9411764705882353,0.9411764705882353
+2.0,Place the cardboard box with the yellow label on the shelf,constant_velocity,17,0.3736189793911341,0.0,0.0
+2.0,Place the cardboard box with the yellow label on the shelf,fixed_interval,17,0.19642636645937514,0.9411764705882353,0.9411764705882353
+2.0,Place the cardboard box with the yellow label on the shelf,last_value,17,0.39997770618625234,0.0,0.0
+2.0,Place the long cardboard box on the shelf,adaptive_request,12,0.13989823631318357,0.75,0.75
+2.0,Place the long cardboard box on the shelf,constant_velocity,12,0.30489641580665644,0.0,0.0
+2.0,Place the long cardboard box on the shelf,fixed_interval,12,0.17900735889394723,0.75,0.75
+2.0,Place the long cardboard box on the shelf,last_value,12,0.35379792809470184,0.0,0.0
+2.0,Place the pink package on the shelf,adaptive_request,6,0.1923415262193976,1.0,1.0
+2.0,Place the pink package on the shelf,constant_velocity,6,0.6015156185322669,0.0,0.0
+2.0,Place the pink package on the shelf,fixed_interval,6,0.29691875448612515,1.0,1.0
+2.0,Place the pink package on the shelf,last_value,6,0.2746021396954711,0.0,0.0
+2.0,Place the small cardboard box on the shelf,adaptive_request,18,0.16327420782662522,1.0,1.0000000000000009
+2.0,Place the small cardboard box on the shelf,constant_velocity,18,0.3563552542404128,0.0,0.0
+2.0,Place the small cardboard box on the shelf,fixed_interval,18,0.19635599122704842,1.0,1.0018518888888894
+2.0,Place the small cardboard box on the shelf,last_value,18,0.42105985140085045,0.0,0.0
+2.0,Place the small cardboard boxes into the blue plastic basket one by one,adaptive_request,53,0.15252233499065315,0.9056603773584906,0.9062893019056604
+2.0,Place the small cardboard boxes into the blue plastic basket one by one,constant_velocity,53,0.3258462883431485,0.0,0.0
+2.0,Place the small cardboard boxes into the blue plastic basket one by one,fixed_interval,53,0.19410790804997272,0.8679245283018868,0.8679245283018868
+2.0,Place the small cardboard boxes into the blue plastic basket one by one,last_value,53,0.2311618171405093,0.0,0.0
+2.0,Place the two cardboard boxes on the shelf,adaptive_request,58,0.1651193696455369,1.0,1.0000000000344829
+2.0,Place the two cardboard boxes on the shelf,constant_velocity,58,0.4069401332427067,0.0,0.0
+2.0,Place the two cardboard boxes on the shelf,fixed_interval,58,0.2178072825124507,0.9655172413793104,0.9655172413793104
+2.0,Place the two cardboard boxes on the shelf,last_value,58,0.44695686913552685,0.0,0.0
+2.0,Rotate the box on the far left to face outward.,adaptive_request,2,0.07070158261805481,1.0,1.0
+2.0,Rotate the box on the far left to face outward.,constant_velocity,2,0.1829244506331889,0.0,0.0
+2.0,Rotate the box on the far left to face outward.,fixed_interval,2,0.1057686881014892,1.0,1.0
+2.0,Rotate the box on the far left to face outward.,last_value,2,0.042473669292477687,0.0,0.0
+2.0,Rotate the box on the far right to face outward.,adaptive_request,2,0.13291356919409486,1.0,1.0000000223517418
+2.0,Rotate the box on the far right to face outward.,constant_velocity,2,0.3802410840389716,0.0,0.0
+2.0,Rotate the box on the far right to face outward.,fixed_interval,2,0.21110917948474073,1.0,1.0333333611488342
+2.0,Rotate the box on the far right to face outward.,last_value,2,0.06452278043867887,0.0,0.0
+2.0,Rotate the middle box to face outward.,adaptive_request,2,0.09711295104888473,1.0,1.0
+2.0,Rotate the middle box to face outward.,constant_velocity,2,0.21060737414058966,0.0,0.0
+2.0,Rotate the middle box to face outward.,fixed_interval,2,0.13344062709028925,1.0,1.0
+2.0,Rotate the middle box to face outward.,last_value,2,0.04463666743640611,0.0,0.0
+2.0,Take two packs of orange snacks from the box and place them on the shelf,adaptive_request,8,0.15637289546809235,1.0,1.0
+2.0,Take two packs of orange snacks from the box and place them on the shelf,constant_velocity,8,0.29669053197016054,0.0,0.0
+2.0,Take two packs of orange snacks from the box and place them on the shelf,fixed_interval,8,0.1870912082031334,1.0,1.0
+2.0,Take two packs of orange snacks from the box and place them on the shelf,last_value,8,0.24984326283097058,0.0,0.0
+2.0,unlabeled,adaptive_request,2,0.0066534912934960565,0.0,0.0
+2.0,unlabeled,constant_velocity,2,0.00665349129349601,0.0,0.0
+2.0,unlabeled,fixed_interval,2,0.0066534912934960565,0.0,0.0
+2.0,unlabeled,last_value,2,0.01450613676541188,0.0,0.0
+

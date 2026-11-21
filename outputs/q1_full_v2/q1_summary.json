@@ -1,0 +1,79 @@
+{
+  "n_sequences": 138,
+  "motion_parameters_from_train": {
+    "median_frame_interval_s": 0.03333300000000072,
+    "acceleration_residual_variance": 6.246352446044181,
+    "acceleration_variance_env_bootstrap_95ci": [
+      4.013164998661582,
+      8.706639057239151
+    ],
+    "measurement_variance_scale": 1.3080145546050558e-06,
+    "train_environment_count": 16
+  },
+  "q1_quality_test": {
+    "split": "test",
+    "threshold_from_validation": 0.8348986513415984,
+    "n_frames": 24482,
+    "bad_rate": 0.010211584020913324,
+    "accuracy": 0.9629932195082102,
+    "balanced_accuracy": 0.5557419940574447,
+    "bad_precision": 0.048209366391184574,
+    "bad_recall": 0.14,
+    "bad_f1": 0.07172131147540983,
+    "majority_accuracy": 0.9897884159790866,
+    "brier": 0.23304721513283913,
+    "auc": 0.6972992736876856,
+    "auprc": 0.02680249998039225
+  },
+  "q1_env_bootstrap_ci": [
+    {
+      "split": "test",
+      "method": "constant_velocity",
+      "n_environments": 4,
+      "mean_error": 0.0038848891925060973,
+      "ci95_lo": 0.00284190730191305,
+      "ci95_hi": 0.00456946731982152
+    },
+    {
+      "split": "test",
+      "method": "cv_kalman",
+      "n_environments": 4,
+      "mean_error": 0.004031385844626079,
+      "ci95_lo": 0.0030287179759662746,
+      "ci95_hi": 0.004670440303229791
+    },
+    {
+      "split": "test",
+      "method": "last_value",
+      "n_environments": 4,
+      "mean_error": 0.014161792708025908,
+      "ci95_lo": 0.010989857367665067,
+      "ci95_hi": 0.015736275591345023
+    },
+    {
+      "split": "validation",
+      "method": "constant_velocity",
+      "n_environments": 4,
+      "mean_error": 0.003633040384393079,
+      "ci95_lo": 0.0030263386564138377,
+      "ci95_hi": 0.0037862993644845844
+    },
+    {
+      "split": "validation",
+      "method": "cv_kalman",
+      "n_environments": 4,
+      "mean_error": 0.0038586672405211296,
+      "ci95_lo": 0.003139754850058224,
+      "ci95_hi": 0.004047343869155532
+    },
+    {
+      "split": "validation",
+      "method": "last_value",
+      "n_environments": 4,
+      "mean_error": 0.00842846957499507,
+      "ci95_lo": 0.007285537936248226,
+      "ci95_hi": 0.01038827593383514
+    }
+  ],
+  "q1_horizon_error_points": 108255
+}
