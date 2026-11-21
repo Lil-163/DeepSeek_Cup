@@ -263,8 +263,11 @@ def run_trial(case_tasks, source_index, prefix_features, models, split, seed,
                     cand = (value, j, nxt)
                     if review is None or cand[0] > review[0]:
                         review = cand
-        if review is not None and (not candidates
-                                   or review[0] > candidates[0][0] * params["review_vs_exec_factor"]):
+        # 将复核价值与当前最优可执行任务比较；ready 列表的首项不一定是
+        # 得分最高的执行候选，直接取 candidates[0] 会让结果受 CSV 行序影响。
+        best_exec_score = max((candidate[0] for candidate in candidates), default=None)
+        if review is not None and (best_exec_score is None
+                                   or review[0] > best_exec_score * params["review_vs_exec_factor"]):
             _, j, level = review
             reviews += 1
             cost += 1.
@@ -381,4 +384,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

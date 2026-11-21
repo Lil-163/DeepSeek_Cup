@@ -11,7 +11,8 @@ OUT.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({"figure.dpi": 180, "savefig.dpi": 220, "font.size": 10})
 
 # Q1: aggregate test error by forecast horizon.
-q1 = pd.read_csv(ROOT / "outputs" / "q1_full_v2" / "q1_horizon_error_summary.csv")
+PUBLIC = ROOT / "outputs" / "paper_ready_20261122"
+q1 = pd.read_csv(PUBLIC / "q1_horizon_error_summary.csv")
 q1 = q1[q1["split"] == "test"]
 labels = {
     "constant_velocity": "Constant velocity",
@@ -30,7 +31,7 @@ fig.savefig(OUT / "q1_test_error_by_horizon.png", bbox_inches="tight")
 plt.close(fig)
 
 # Q2: replay error and empirical coverage across mask durations.
-q2 = pd.read_csv(ROOT / "outputs" / "q2_full_v2" / "q2_summary.csv")
+q2 = pd.read_csv(PUBLIC / "q2_summary.csv")
 method_labels = {
     "adaptive_request": "Adaptive request",
     "fixed_interval": "Fixed interval",
@@ -55,7 +56,7 @@ fig.savefig(OUT / "q2_replay_performance.png", bbox_inches="tight")
 plt.close(fig)
 
 # Q3: nominal-mapping validation on-time rate by case and policy.
-q3 = pd.read_csv(ROOT / "outputs" / "q3_analysis_tuned_v3" / "q3_gate_0_50_nominal.csv")
+q3 = pd.read_csv(PUBLIC / "q3_gate_0_50_nominal.csv")
 fig, ax = plt.subplots(figsize=(8.0, 4.8))
 policies = ["adaptive", "no_review", "edd"]
 case_ids = ["S1", "S2", "S3"]
@@ -76,7 +77,7 @@ fig.savefig(OUT / "q3_nominal_on_time_rate.png", bbox_inches="tight")
 plt.close(fig)
 
 # Q3: empirical coverage of the duration quantile models.
-qdur = pd.read_csv(ROOT / "outputs" / "q3_validation_tuned_v3" / "q3_duration_validation.csv")
+qdur = pd.read_csv(PUBLIC / "q3_duration_validation.csv")
 qdur = qdur[qdur["model"].isin(["q50", "q90"])]
 fig, ax = plt.subplots(figsize=(6.4, 4.6))
 xs = range(len(qdur))

@@ -66,7 +66,11 @@ class CVKalman:
         S = H @ self.cov @ H.T + R
         K = np.linalg.solve(S, H @ self.cov).T
         self.state = self.state + K @ res
-        self.cov = (np.eye(6) - K @ H) @ self.cov
+        # Joseph form preserves a symmetric positive-semidefinite covariance
+        # better under finite precision; this covariance drives Q2 intervals.
+        A = np.eye(6) - K @ H
+        self.cov = A @ self.cov @ A.T + K @ R @ K.T
+        self.cov = 0.5 * (self.cov + self.cov.T)
 
 
 def good_runs(seq: dict) -> list[np.ndarray]:
@@ -84,6 +88,7 @@ def good_runs(seq: dict) -> list[np.ndarray]:
 
 def estimate_motion_parameters(seqs: list[dict]) -> tuple[float, float, dict]:
     env_acc: dict[str, list[float]] = {}
+    env_second_diff: dict[str, list[float]] = {}
     cadence: list[float] = []
     second_diff: list[float] = []
     for s in seqs:
@@ -99,25 +104,33 @@ def estimate_motion_parameters(seqs: list[dict]) -> tuple[float, float, dict]:
                 mid = 0.5 * (dt[1:] + dt[:-1])
                 acc = np.diff(vel, axis=0) / np.maximum(mid[:, None], 1e-9)
                 env_acc.setdefault(s["environment_id"], []).extend(acc.ravel().tolist())
-            second_diff.extend(np.diff(p[run], n=2, axis=0).ravel().tolist())
+            cur_second_diff = np.diff(p[run], n=2, axis=0).ravel().tolist()
+            second_diff.extend(cur_second_diff)
+            env_second_diff.setdefault(s["environment_id"], []).extend(cur_second_diff)
     typical_dt = float(np.median(cadence)) if cadence else 1 / 30
     all_acc = np.asarray([x for v in env_acc.values() for x in v], float)
     accel_var = max(float(np.var(all_acc)), 1e-8) if len(all_acc) else 1e-4
     meas_var = max(float(np.var(second_diff) / 6), 1e-8) if second_diff else 1e-6
     rng = np.random.default_rng(2026)
-    envs = list(env_acc)
-    est = []
-    for _ in range(300):
-        sampled = rng.choice(envs, size=len(envs), replace=True)
-        vals = np.concatenate([np.asarray(env_acc[e]) for e in sampled])
-        est.append(np.var(vals))
-    ci = ([float(np.quantile(est, 0.025)), float(np.quantile(est, 0.975))]
-          if est else [None, None])
+    envs = sorted(set(env_acc) & set(env_second_diff))
+    est_acc, est_meas = [], []
+    if envs:
+        for _ in range(300):
+            sampled = rng.choice(envs, size=len(envs), replace=True)
+            acc_vals = np.concatenate([np.asarray(env_acc[e]) for e in sampled])
+            second_vals = np.concatenate([np.asarray(env_second_diff[e]) for e in sampled])
+            est_acc.append(np.var(acc_vals))
+            est_meas.append(np.var(second_vals) / 6)
+    acc_ci = ([float(np.quantile(est_acc, 0.025)), float(np.quantile(est_acc, 0.975))]
+              if est_acc else [None, None])
+    meas_ci = ([float(np.quantile(est_meas, 0.025)), float(np.quantile(est_meas, 0.975))]
+               if est_meas else [None, None])
     return accel_var, meas_var, {
         "median_frame_interval_s": typical_dt,
         "acceleration_residual_variance": accel_var,
-        "acceleration_variance_env_bootstrap_95ci": ci,
+        "acceleration_variance_env_bootstrap_95ci": acc_ci,
         "measurement_variance_scale": meas_var,
+        "measurement_variance_env_bootstrap_95ci": meas_ci,
         "train_environment_count": len(envs),
     }
 
@@ -370,4 +383,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

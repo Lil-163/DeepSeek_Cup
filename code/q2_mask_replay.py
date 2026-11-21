@@ -190,6 +190,62 @@ def run_mask_replay(seqs, accel_var, meas_var, interval_factor, tolerance,
         waiting_s=("waiting_s", "mean"))
     summary["rmse"] = np.sqrt(weighted.wmse_sum / np.maximum(weighted.points, 1e-12))
     summary.to_csv(output / "q2_summary.csv", index=False, encoding="utf-8-sig")
+    # Window-level values are correlated within records/environments. Add an
+    # environment-level view so conclusions are not based only on pooled windows.
+    env_rows = []
+    for (environment_id, duration_s, method), part in detail.groupby(
+            ["environment_id", "duration_s", "method"]):
+        n_points = int(part.n_points.sum())
+        row = {
+            "environment_id": environment_id,
+            "duration_s": float(duration_s),
+            "method": method,
+            "records": int(part.episode_uuid.nunique()),
+            "windows": int(len(part)),
+            "points": n_points,
+            "mae": float(np.average(part.mae, weights=part.n_points)),
+            "rmse": float(np.sqrt(np.average(part.mse, weights=part.n_points))),
+            "requests_per_window": float(part.requests.mean()),
+            "cost_per_window": float(part.observation_cost.mean()),
+            "waiting_s_per_window": float(part.waiting_s.mean()),
+        }
+        for col in ("coverage_90", "mean_interval_radius"):
+            valid = part[col].notna()
+            row[col] = (float(np.average(part.loc[valid, col],
+                                         weights=part.loc[valid, "n_points"]))
+                        if valid.any() else np.nan)
+        env_rows.append(row)
+    env_summary = pd.DataFrame(env_rows)
+    env_summary.to_csv(output / "q2_environment_summary.csv", index=False,
+                       encoding="utf-8-sig")
+
+    pair_rows = []
+    env_metrics = ["mae", "rmse", "coverage_90", "requests_per_window",
+                   "cost_per_window", "waiting_s_per_window"]
+    for duration_s, part in env_summary.groupby("duration_s"):
+        wide = part.set_index(["environment_id", "method"])[env_metrics].unstack("method")
+        for alt in ("adaptive_request", "fixed_interval", "last_value", "constant_velocity"):
+            for base in ("fixed_interval", "last_value", "constant_velocity"):
+                if alt == base:
+                    continue
+                for metric in env_metrics:
+                    a = wide[(metric, alt)] if (metric, alt) in wide else pd.Series(dtype=float)
+                    b = wide[(metric, base)] if (metric, base) in wide else pd.Series(dtype=float)
+                    diff = (a - b).dropna()
+                    if diff.empty:
+                        continue
+                    pair_rows.append({
+                        "duration_s": float(duration_s), "metric": metric,
+                        "comparison": f"{alt} - {base}",
+                        "n_environments": int(len(diff)),
+                        "mean_environment_difference": float(diff.mean()),
+                        "min_environment_difference": float(diff.min()),
+                        "max_environment_difference": float(diff.max()),
+                        "n_env_alt_lower": int((diff < 0).sum()),
+                    })
+    pd.DataFrame(pair_rows).to_csv(
+        output / "q2_environment_comparison_summary.csv", index=False,
+        encoding="utf-8-sig")
     stage = detail.groupby(["duration_s", "stage", "method"], as_index=False).agg(
         windows=("window", "size"), mae=("mae", "mean"), requests=("requests", "mean"),
         waiting_s=("waiting_s", "mean"))
@@ -279,4 +335,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

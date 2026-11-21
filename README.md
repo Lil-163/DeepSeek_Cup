@@ -16,8 +16,8 @@
 ```
 code/unified_data.py        统一读取层（v3：官方 eligible 口径 + 逐手坏帧标记）+ Parquet 缓存
 code/audit_data.py          阶段 C 数据审计（--sample N / --full / --no-cache）
-code/q1_state_quality.py    阶段 D Q1：CV-KF 状态模型 + 观测可靠性逻辑回归
-code/q2_mask_replay.py      阶段 E Q2：四方法因果回放 + 防泄漏追踪 + 自然低质量统计
+code/q1_state_quality.py    阶段 D Q1：CV-KF（Joseph 协方差更新）+ 观测可靠性逻辑回归
+code/q2_mask_replay.py      阶段 E Q2：四方法因果回放 + 防泄漏追踪 + 环境分组汇总
 code/q3_scheduler.py        阶段 F Q3：前缀分位数时长预测 + 协议仿真器 + 三策略（v3 延误修正）
 code/q3_tune.py             Q3 验证集两阶段调参
 code/q3_analyze.py          Q3 汇总/0.50 门槛/配对比较
@@ -27,7 +27,8 @@ work/*.md                   设计 schema、候选模型表、各问结论说明
 docs/literature/            文献矩阵（12 篇，DOI 经注册库核实）
 docs/local_validation_20261122.md 三问本地复跑审查、关键数值与论文限制
 docs/figures/               三问论文用汇总图（仅使用聚合指标）
-outputs/                    已提交的权威汇总结果；本机还可生成更完整的逐行明细
+outputs/paper_ready_20261122/ 最新修正版三问结果、Q3试验级指标和聚合对比表
+outputs/                    本地完整回放明细与过程日志；不上传原始/逐样本材料
 data_cache/sequences.parquet 帧级序列缓存（输入签名不变时复用）
 reports/run_log.md          本地执行日志（含本机数据标识，不上传）
 ```
@@ -75,4 +76,8 @@ $REPO = (Get-Location).Path # 先在项目根目录打开 Terminal
 
 ## 5. 论文素材
 
-三问本地复跑和模型审查结论见 `docs/local_validation_20261122.md`；可直接引用的汇总图位于 `docs/figures/`。质量分类器弱区分力、Q3 分位数欠覆盖、EDD 未达门槛和缺少官方 test seeds 均需在论文中如实说明。
+三问复跑和代码审查结论见 `docs/local_validation_20261122.md`；最新结果表在 `outputs/paper_ready_20261122/`，图片在 `docs/figures/`，可用 `code/plot_public_figures.py` 重画。Q1 质量分类器弱区分力、Q3 分位数欠覆盖、EDD 未达门槛以及缺少独立官方测试 seeds 均需如实说明。
+
+官方 Q3 要求提交试验级指标和逐动作 process log。试验级指标已随本仓库发布；process log 会记录源区间标识和每一步动作，留存在本地复现输出中，不包含在公开仓库中。参赛队提交材料时需从官方原始数据和代码重新生成并附上该日志。
+
+当前论文数字以 `docs/local_validation_20261122.md` 和 `outputs/paper_ready_20261122/` 为准。`work/q3_results_notes.md` 是早期版本，含旧策略数字和逐任务示例；自动审核拒绝再次公开更新该文件，请勿引用其中的策略指标。

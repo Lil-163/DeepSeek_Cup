@@ -1,0 +1,19 @@
+{
+  "interval_factor_from_validation": 2.466340123476953,
+  "request_tolerance_from_validation": 0.007558215717546026,
+  "nominal_coverage": 0.9,
+  "return_delay_s": 1.0,
+  "request_budget": 3,
+  "cost_per_request": 1.0,
+  "mask_durations_s": [
+    0.25,
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "q2_windows": 6447,
+  "q2_replay_seconds": 7.147598900133744,
+  "low_quality_events": 186,
+  "leakage_trace_written": true
+}

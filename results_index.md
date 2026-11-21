@@ -18,3 +18,16 @@
 文献：docs/literature/literature_matrix.md。完整执行日志与全量文件清单仅保留在本机。
 
 论文写作新增素材（2026-11-22）：`docs/local_validation_20261122.md`（三问复跑审查与限制）、`docs/figures/`（四张聚合指标图）、`code/plot_public_figures.py`（从已提交聚合 CSV 复现图片）。Q3 两阶段调参复核参数与冻结配置一致；独立 1,350 次验证复跑摘要与权威输出一致。
+
+## 2026-11-22 修正轮（当前论文引用版本）
+
+本轮代码复审修复了 Q3 复核价值误与候选列表首项比较的问题，并为 Q1/Q2 增加数值稳定和环境级汇总。旧目录仍留作历史对照；论文引用应以 `outputs/paper_ready_20261122/` 为准：
+
+- Q1：`q1_summary.json`、`q1_horizon_error_summary.csv`、`q1_env_bootstrap_ci.csv`、`q1_quality_metrics.csv`。
+- Q2：`q2_summary.csv`、`q2_calibration.json`、`q2_low_quality_summary.csv`、`q2_environment_comparison_summary.csv`。
+- Q3：`q3_tune_results.csv`、`q3_tuned_params*.json`、`q3_duration_validation.csv`、`q3_trial_metrics.csv`、`q3_validation_summary.csv`、`q3_gate_0_50_nominal.csv`、`q3_paired_comparison.csv`。
+- Q3 最终参数：`w_due=1.0, w_cost=0.035, reserve_quantile_mix=0.5`；修正后 1,350 条试验 invalid=0，独立重算 11 项指标一致。
+
+Q3 逐动作过程日志是官方要求的提交材料，但含回放源标识，未放在公开 GitHub；本地输出目录保留，最终提交或队内审核时需另外提供。
+
+说明：仓库中较早的 `work/q3_results_notes.md` 含旧策略数字及逐任务日志派生示例。自动审核拒绝再次公开该文件，因此它不作为当前结果依据；请只引用本节列出的 2026-11-22 汇总文件和 `docs/local_validation_20261122.md`。
