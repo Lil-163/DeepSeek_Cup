@@ -25,6 +25,8 @@ code/recompute_trial.py     独立重算：按题面公式从 process log 重放
 code/make_manifest.py       结果清单（完整 64 位 SHA256，排除清单自身）
 work/*.md                   设计 schema、候选模型表、各问结论说明
 docs/literature/            文献矩阵（12 篇，DOI 经注册库核实）
+docs/local_validation_20261122.md 三问本地复跑审查、关键数值与论文限制
+docs/figures/               三问论文用汇总图（仅使用聚合指标）
 outputs/                    已提交的权威汇总结果；本机还可生成更完整的逐行明细
 data_cache/sequences.parquet 帧级序列缓存（输入签名不变时复用）
 reports/run_log.md          本地执行日志（含本机数据标识，不上传）
@@ -71,3 +73,6 @@ $REPO = (Get-Location).Path # 先在项目根目录打开 Terminal
 - 手状态 ≠ 商品状态；区域坐标 ≠ 货架位置；场景结果 ≠ 机器人性能；
 - Q3 同 seed 各策略同源配对；未完成按 C=H 计延误；违规试验保留。
 
+## 5. 论文素材
+
+三问本地复跑和模型审查结论见 `docs/local_validation_20261122.md`；可直接引用的汇总图位于 `docs/figures/`。质量分类器弱区分力、Q3 分位数欠覆盖、EDD 未达门槛和缺少官方 test seeds 均需在论文中如实说明。

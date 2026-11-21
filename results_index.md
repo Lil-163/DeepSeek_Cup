@@ -17,3 +17,4 @@
 结论说明：work/q1_results_notes.md、work/q2_results_notes.md、work/q3_results_notes.md（均含修正轮说明）。
 文献：docs/literature/literature_matrix.md。完整执行日志与全量文件清单仅保留在本机。
 
+论文写作新增素材（2026-11-22）：`docs/local_validation_20261122.md`（三问复跑审查与限制）、`docs/figures/`（四张聚合指标图）、`code/plot_public_figures.py`（从已提交聚合 CSV 复现图片）。Q3 两阶段调参复核参数与冻结配置一致；独立 1,350 次验证复跑摘要与权威输出一致。
