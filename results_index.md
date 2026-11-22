@@ -28,6 +28,7 @@
 - Q3：`q3_tune_results.csv`、`q3_tuned_params*.json`、`q3_duration_validation.csv`、`q3_trial_metrics.csv`、`q3_validation_summary.csv`、`q3_gate_0_50_nominal.csv`、`q3_paired_comparison.csv`。
 - Q3 最终参数：`w_due=1.0, w_cost=0.035, reserve_quantile_mix=0.5`；修正后 1,350 条试验 invalid=0，独立重算 11 项指标一致。
 
-Q3 逐动作过程日志是官方要求的提交材料，但含回放源标识，未放在公开 GitHub；本地输出目录保留，最终提交或队内审核时需另外提供。
+Q3 逐动作过程日志是官方要求的提交材料，现已与试验级指标一起上传到 `outputs/paper_ready_20261122/`；本地输出目录也保留完整原始复跑结果。
 
 说明：仓库中较早的 `work/q3_results_notes.md` 含旧策略数字及逐任务日志派生示例。自动审核拒绝再次公开该文件，因此它不作为当前结果依据；请只引用本节列出的 2026-11-22 汇总文件和 `docs/local_validation_20261122.md`。
+
