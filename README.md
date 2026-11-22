@@ -78,6 +78,7 @@ $REPO = (Get-Location).Path # 先在项目根目录打开 Terminal
 
 三问复跑和代码审查结论见 `docs/local_validation_20261122.md`；最新结果表在 `outputs/paper_ready_20261122/`，图片在 `docs/figures/`，可用 `code/plot_public_figures.py` 重画。Q1 质量分类器弱区分力、Q3 分位数欠覆盖、EDD 未达门槛以及缺少独立官方测试 seeds 均需如实说明。
 
-官方 Q3 要求提交试验级指标和逐动作 process log。试验级指标已随本仓库发布；process log 会记录源区间标识和每一步动作，留存在本地复现输出中，不包含在公开仓库中。参赛队提交材料时需从官方原始数据和代码重新生成并附上该日志。
+官方 Q3 要求提交试验级指标和逐动作 process log。两者现均已发布在 `outputs/paper_ready_20261122/`；process log 含源区间引用和逐动作资源变化，供队友核验协议。原始轨迹数据仍不随代码仓库发布。
 
 当前论文数字以 `docs/local_validation_20261122.md` 和 `outputs/paper_ready_20261122/` 为准。`work/q3_results_notes.md` 是早期版本，含旧策略数字和逐任务示例；自动审核拒绝再次公开更新该文件，请勿引用其中的策略指标。
+
