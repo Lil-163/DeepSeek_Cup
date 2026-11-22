@@ -2,19 +2,19 @@
   "chosen": {
     "w_due": 1.0,
     "w_horizon": 0.25,
-    "w_cost": 0.035,
+    "w_cost": 0.06,
     "w_dist": 0.02,
-    "review_unc_min": 0.3,
-    "review_value_min": 0.65,
+    "review_unc_min": 0.25,
+    "review_value_min": 0.45,
     "review_first_scale": 0.6,
     "review_second_scale": 0.35,
-    "review_vs_exec_factor": 0.45,
+    "review_vs_exec_factor": 0.55,
     "reserve_quantile_mix": 0.5,
     "sigma_min": 0.08
   },
-  "mean_on_time": 0.686574074074074,
-  "min_case_on_time": 0.5645833333333333,
-  "mean_cost": 31.85269937505869,
+  "mean_on_time": 0.6362268518518518,
+  "min_case_on_time": 0.5072916666666667,
+  "mean_cost": 30.71583120092269,
   "feasible": true,
   "stage1_grid": {
     "w_cost": [

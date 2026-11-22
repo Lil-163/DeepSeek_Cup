@@ -1,0 +1,9 @@
+{
+  "method": "train_environment_leave_one_out_q90_residual",
+  "n_train_environments": 16,
+  "n_oof_rows": 738,
+  "target_coverage": 0.9,
+  "q90_additive_margin_s": 3.858971393239055,
+  "oof_coverage_raw": 0.8157181571815718,
+  "oof_coverage_calibrated": 0.8997289972899729
+}

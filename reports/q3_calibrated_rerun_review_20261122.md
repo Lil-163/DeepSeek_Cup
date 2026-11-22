@@ -18,7 +18,7 @@
 
 ## Main validation result
 
-Weighted on-time rate, mean across seeds and five mappings:
+Weighted on-time rate for the nominal mapping (alpha=1, beta=0.5), mean across 30 seeds:
 
 | Case | Adaptive | No review | EDD |
 |---|---:|---:|---:|
@@ -26,7 +26,7 @@ Weighted on-time rate, mean across seeds and five mappings:
 | S2 | 0.6097 | 0.6236 | 0.2722 |
 | S3 | 0.5073 | 0.5250 | 0.2135 |
 
-Adaptive and no-review pass the 0.50 mean gate in all three cases. EDD does not. For the adaptive policy, mean cost was 26.55 / 29.26 / 36.34 for S1 / S2 / S3; mean observation counts were 4 / 6 / 8.
+Averaged over all five duration mappings and 30 seeds, weighted on-time means were S1 adaptive/no-review/EDD 0.7925/0.8113/0.3750, S2 0.5872/0.6019/0.2628, and S3 0.5004/0.5219/0.2135. Adaptive and no-review meet the 0.50 mean gate in each case; adaptive S3 is close to the threshold, while EDD fails in every case. No-review has a higher on-time rate than adaptive in all three cases. At the nominal mapping, adaptive mean costs were 26.55 / 29.26 / 36.34 and mean observation counts were 4 / 6 / 8 for S1 / S2 / S3.
 
 ## Calibration caveat
 

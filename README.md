@@ -18,7 +18,7 @@ code/unified_data.py        统一读取层（v3：官方 eligible 口径 + 逐�
 code/audit_data.py          阶段 C 数据审计（--sample N / --full / --no-cache）
 code/q1_state_quality.py    阶段 D Q1：CV-KF（Joseph 协方差更新）+ 观测可靠性逻辑回归
 code/q2_mask_replay.py      阶段 E Q2：四方法因果回放 + 防泄漏追踪 + 环境分组汇总
-code/q3_scheduler.py        阶段 F Q3：前缀分位数时长预测 + 协议仿真器 + 三策略（v3 延误修正）
+code/q3_scheduler.py        阶段 F Q3：前缀分位数时长预测 + 协议仿真器 + 三策略（v3 延误修正 + 训练环境 OOF Q90 校准）
 code/q3_tune.py             Q3 验证集两阶段调参
 code/q3_analyze.py          Q3 汇总/0.50 门槛/配对比较
 code/recompute_trial.py     独立重算：按题面公式从 process log 重放单条试验 11 项指标
@@ -76,9 +76,20 @@ $REPO = (Get-Location).Path # 先在项目根目录打开 Terminal
 
 ## 5. 论文素材
 
-三问复跑和代码审查结论见 `docs/local_validation_20261122.md`；最新结果表在 `outputs/paper_ready_20261122/`，图片在 `docs/figures/`，可用 `code/plot_public_figures.py` 重画。Q1 质量分类器弱区分力、Q3 分位数欠覆盖、EDD 未达门槛以及缺少独立官方测试 seeds 均需如实说明。
+三问复跑和代码审查结论见 `docs/local_validation_20261122.md`；最新结果表在 `outputs/paper_ready_20261122/`，图片在 `docs/figures/`，可用 `code/plot_public_figures.py` 重画。Q1 质量分类器区分力较弱；Q3 原始 Q90 欠覆盖、训练环境校准后在小验证集偏保守；EDD 未达门槛且暂无官方测试 seeds，均需如实说明。
 
 官方 Q3 要求提交试验级指标和逐动作 process log。两者现均已发布在 `outputs/paper_ready_20261122/`；process log 含源区间引用和逐动作资源变化，供队友核验协议。原始轨迹数据仍不随代码仓库发布。
 
-当前论文数字以 `docs/local_validation_20261122.md` 和 `outputs/paper_ready_20261122/` 为准。`work/q3_results_notes.md` 是早期版本，含旧策略数字和逐任务示例；自动审核拒绝再次公开更新该文件，请勿引用其中的策略指标。
+当前论文数字以 `docs/local_validation_20261122.md` 和 `outputs/paper_ready_20261122/` 为准。`work/q3_results_notes.md` 保留历史指标并附本轮最新校准结果；当前 Q3 请引用该文件末尾的最新附录、`docs/local_validation_20261122.md` 与 `outputs/paper_ready_20261122/`。
 
+
+## Latest Q3 calibrated run (2026-11-22)
+
+The current Q3 reference outputs replace the earlier Q3 files in `outputs/paper_ready_20261122/`. Q90 calibration is fitted from training-environment OOF residuals only. The validation report, including the conservative coverage result and limits, is `reports/q3_calibrated_rerun_review_20261122.md`.
+
+To rerun the frozen validation model from the repository root:
+
+```powershell
+& $VENV $REPO\code\q3_scheduler.py --data-root $DATA --output $REPO\outputs\paper_ready_20261122 --params-json $REPO\outputs\paper_ready_20261122\q3_tuned_params_flat.json
+& $VENV $REPO\code\q3_analyze.py --input $REPO\outputs\paper_ready_20261122\q3_trial_metrics.csv --output $REPO\outputs\paper_ready_20261122
+```

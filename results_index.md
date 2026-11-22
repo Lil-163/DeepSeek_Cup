@@ -26,13 +26,13 @@
 - Q1：`q1_summary.json`、`q1_horizon_error_summary.csv`、`q1_env_bootstrap_ci.csv`、`q1_quality_metrics.csv`。
 - Q2：`q2_summary.csv`、`q2_calibration.json`、`q2_low_quality_summary.csv`、`q2_environment_comparison_summary.csv`。
 - Q3：`q3_tune_results.csv`、`q3_tuned_params*.json`、`q3_duration_validation.csv`、`q3_trial_metrics.csv`、`q3_validation_summary.csv`、`q3_gate_0_50_nominal.csv`、`q3_paired_comparison.csv`。
-- Q3 最终参数：`w_due=1.0, w_cost=0.035, reserve_quantile_mix=0.5`；修正后 1,350 条试验 invalid=0，独立重算 11 项指标一致。
+- Q3 最终参数：`w_due=1.0, w_cost=0.06, reserve_quantile_mix=0.5`；修正后 1,350 条试验 invalid=0，独立重算 11 项指标一致。
 
 Q3 逐动作过程日志是官方要求的提交材料，现已与试验级指标一起上传到 `outputs/paper_ready_20261122/`；本地输出目录也保留完整原始复跑结果。
 
-说明：仓库中较早的 `work/q3_results_notes.md` 含旧策略数字及逐任务日志派生示例。自动审核拒绝再次公开该文件，因此它不作为当前结果依据；请只引用本节列出的 2026-11-22 汇总文件和 `docs/local_validation_20261122.md`。
+说明：`work/q3_results_notes.md` 保留历史策略数字并附有本轮校准结果；当前 Q3 以本节列出的最新校准文件、`docs/local_validation_20261122.md` 和 `reports/q3_calibrated_rerun_review_20261122.md` 为准。
 
 
 ## Q3 calibrated validation rerun (2026-11-22)
 
-The latest Q3 model, tuned parameters, full validation trial metrics, action-level process log, analysis tables, and review report are available in `outputs/pycharm_q3_calibrated_*` and `reports/q3_calibrated_rerun_review_20261122.md`. The Q90 calibration uses training-environment OOF residuals only. Adaptive weighted on-time means across five mappings and 30 validation seeds are S1 0.7917, S2 0.6097, S3 0.5073; no-review is 0.8271, 0.6236, 0.5250; EDD is below the 0.50 gate. There are 1,350 valid trials and no official test seeds. The calibrated validation Q90 coverage is 0.9524 on 21 rows and should be described as conservative, not perfectly calibrated.
+The latest Q3 model, tuned parameters, full validation trial metrics, action-level process log, analysis tables, and review report are available in `outputs/pycharm_q3_calibrated_*` and `reports/q3_calibrated_rerun_review_20261122.md`. The Q90 calibration uses training-environment OOF residuals only. At the nominal mapping (alpha=1, beta=0.5), adaptive weighted on-time means across 30 validation seeds are S1 0.7917, S2 0.6097, S3 0.5073; no-review is 0.8271, 0.6236, 0.5250; EDD is below the 0.50 gate. Averaged over all five mappings, adaptive means are S1 0.7925, S2 0.5872, S3 0.5004. There are 1,350 valid trials and no official test seeds. The calibrated validation Q90 coverage is 0.9524 on 21 rows and should be described as conservative, not perfectly calibrated.
