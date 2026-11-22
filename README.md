@@ -25,6 +25,7 @@ code/recompute_trial.py     独立重算：按题面公式从 process log 重放
 code/make_manifest.py       结果清单（完整 64 位 SHA256，排除清单自身）
 work/*.md                   设计 schema、候选模型表、各问结论说明
 docs/literature/            文献矩阵（12 篇，DOI 经注册库核实）
+docs/q3_model_implementation_guide.md Q3 实际模型、理论引用、解题思路与实现注意事项
 docs/local_validation_20261122.md 三问本地复跑审查、关键数值与论文限制
 docs/figures/               三问论文用汇总图（仅使用聚合指标）
 outputs/paper_ready_20261122/ 最新修正版三问结果、Q3试验级指标和聚合对比表
@@ -76,7 +77,7 @@ $REPO = (Get-Location).Path # 先在项目根目录打开 Terminal
 
 ## 5. 论文素材
 
-三问复跑和代码审查结论见 `docs/local_validation_20261122.md`；最新结果表在 `outputs/paper_ready_20261122/`，图片在 `docs/figures/`，可用 `code/plot_public_figures.py` 重画。Q1 质量分类器区分力较弱；Q3 原始 Q90 欠覆盖、训练环境校准后在小验证集偏保守；EDD 未达门槛且暂无官方测试 seeds，均需如实说明。
+Q3 模型、文献引用和代码实现说明见 `docs/q3_model_implementation_guide.md`。三问复跑和代码审查结论见 `docs/local_validation_20261122.md`；最新结果表在 `outputs/paper_ready_20261122/`，图片在 `docs/figures/`，可用 `code/plot_public_figures.py` 重画。Q1 质量分类器区分力较弱；Q3 原始 Q90 欠覆盖、训练环境校准后在小验证集偏保守；EDD 未达门槛且暂无官方测试 seeds，均需如实说明。
 
 官方 Q3 要求提交试验级指标和逐动作 process log。两者现均已发布在 `outputs/paper_ready_20261122/`；process log 含源区间引用和逐动作资源变化，供队友核验协议。原始轨迹数据仍不随代码仓库发布。
 

@@ -36,3 +36,6 @@ Q3 逐动作过程日志是官方要求的提交材料，现已与试验级指�
 ## Q3 calibrated validation rerun (2026-11-22)
 
 The latest Q3 model, tuned parameters, full validation trial metrics, action-level process log, analysis tables, and review report are available in `outputs/pycharm_q3_calibrated_*` and `reports/q3_calibrated_rerun_review_20261122.md`. The Q90 calibration uses training-environment OOF residuals only. At the nominal mapping (alpha=1, beta=0.5), adaptive weighted on-time means across 30 validation seeds are S1 0.7917, S2 0.6097, S3 0.5073; no-review is 0.8271, 0.6236, 0.5250; EDD is below the 0.50 gate. Averaged over all five mappings, adaptive means are S1 0.7925, S2 0.5872, S3 0.5004. There are 1,350 valid trials and no official test seeds. The calibrated validation Q90 coverage is 0.9524 on 21 rows and should be described as conservative, not perfectly calibrated.
+
+
+Q3 implementation guide: `docs/q3_model_implementation_guide.md` explains the models actually used in code, verified literature references, end-to-end solution flow, leakage/constraint rules, result caveats, and which literature is only conceptual background.
