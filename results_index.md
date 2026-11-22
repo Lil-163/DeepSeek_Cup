@@ -32,3 +32,7 @@ Q3 逐动作过程日志是官方要求的提交材料，现已与试验级指�
 
 说明：仓库中较早的 `work/q3_results_notes.md` 含旧策略数字及逐任务日志派生示例。自动审核拒绝再次公开该文件，因此它不作为当前结果依据；请只引用本节列出的 2026-11-22 汇总文件和 `docs/local_validation_20261122.md`。
 
+
+## Q3 calibrated validation rerun (2026-11-22)
+
+The latest Q3 model, tuned parameters, full validation trial metrics, action-level process log, analysis tables, and review report are available in `outputs/pycharm_q3_calibrated_*` and `reports/q3_calibrated_rerun_review_20261122.md`. The Q90 calibration uses training-environment OOF residuals only. Adaptive weighted on-time means across five mappings and 30 validation seeds are S1 0.7917, S2 0.6097, S3 0.5073; no-review is 0.8271, 0.6236, 0.5250; EDD is below the 0.50 gate. There are 1,350 valid trials and no official test seeds. The calibrated validation Q90 coverage is 0.9524 on 21 rows and should be described as conservative, not perfectly calibrated.

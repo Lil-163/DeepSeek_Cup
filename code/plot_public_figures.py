@@ -56,7 +56,7 @@ fig.savefig(OUT / "q2_replay_performance.png", bbox_inches="tight")
 plt.close(fig)
 
 # Q3: nominal-mapping validation on-time rate by case and policy.
-q3 = pd.read_csv(PUBLIC / "q3_gate_0_50_nominal.csv")
+q3 = pd.read_csv(ROOT / "outputs" / "pycharm_q3_calibrated_analysis_20261122" / "q3_gate_0_50_nominal.csv")
 fig, ax = plt.subplots(figsize=(8.0, 4.8))
 policies = ["adaptive", "no_review", "edd"]
 case_ids = ["S1", "S2", "S3"]
@@ -77,15 +77,16 @@ fig.savefig(OUT / "q3_nominal_on_time_rate.png", bbox_inches="tight")
 plt.close(fig)
 
 # Q3: empirical coverage of the duration quantile models.
-qdur = pd.read_csv(PUBLIC / "q3_duration_validation.csv")
-qdur = qdur[qdur["model"].isin(["q50", "q90"])]
+qdur = pd.read_csv(ROOT / "outputs" / "pycharm_q3_calibrated_final_20261122" / "q3_duration_validation.csv")
+qdur = qdur[qdur["model"].isin(["q50", "q90_raw", "q90_calibrated"])]
 fig, ax = plt.subplots(figsize=(6.4, 4.6))
 xs = range(len(qdur))
 ax.bar([x - .18 for x in xs], qdur["nominal"], width=.36, label="Nominal coverage", color="#9aa4b2")
 ax.bar([x + .18 for x in xs], qdur["coverage"], width=.36, label="Empirical coverage", color="#e07a5f")
-ax.set_xticks(list(xs), qdur["model"].str.upper())
+labels = qdur["model"].map({"q50": "Q50", "q90_raw": "Q90 raw", "q90_calibrated": "Q90 calibrated"})
+ax.set_xticks(list(xs), labels)
 ax.set_ylim(0, 1)
-ax.set(title="Q3: Duration Quantile Coverage", xlabel="Quantile model", ylabel="Coverage")
+ax.set(title="Q3: Calibrated Duration Quantile Coverage", xlabel="Quantile model", ylabel="Coverage")
 ax.grid(axis="y", alpha=.25)
 ax.legend(frameon=False)
 fig.tight_layout()

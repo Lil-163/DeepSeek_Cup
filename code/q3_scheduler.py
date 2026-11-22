@@ -6,9 +6,9 @@
 持有，仅在执行后写入审计日志。真值绝不进入策略函数。
 
 时长估计：训练环境 eligible 源区间的标注时长 d=end−start 为监督目标，log1p 目标下拟合
-q50/q90 分位数梯度提升（特征=family + 前缀数值统计）；family 中位数为基线；验证环境报告
-MAE/Pinball/P90 覆盖率（q3_duration_validation.csv）。不默认对数正态：仿真用分位数+σ 近似，
-并输出 q50/q90 的经验校准对照。
+q50/q90 分位数梯度提升（特征=family + 前缀数值统计）；family 中位数为基线。Q90 额外用训练
+环境留一交叉验证残差作保守加法校准，校准量不使用 validation/test。验证环境报告 MAE/Pinball/
+覆盖率（q3_duration_validation.csv）。不默认对数正态：仿真用分位数+σ 近似。
 
 仿真规程（逐条对照 Problem_3_Requirements.pdf）：
 - 抽样：按 job_id 排序，random.Random(seed).choice 于 split/family 的 eligible 池有放回抽取，
@@ -119,35 +119,78 @@ def build_prefix_table(data_root: Path) -> pd.DataFrame:
     return out
 
 
+def _fit_quantile_model(train: pd.DataFrame, quantile: float):
+    """Fit one duration quantile model using only the supplied training rows."""
+    prep = ColumnTransformer([
+        ("num", StandardScaler(), NUMERIC),
+        ("family", OneHotEncoder(handle_unknown="ignore"), ["family_id"])])
+    model = make_pipeline(prep, GradientBoostingRegressor(
+        loss="quantile", alpha=quantile, n_estimators=120, max_depth=2,
+        min_samples_leaf=8, random_state=20261117))
+    model.fit(train[NUMERIC + ["family_id"]], np.log1p(train.duration_s))
+    return model
+
+
 def fit_duration_models(features: pd.DataFrame) -> dict:
-    train = features[features.split == "train"]
-    if train.environment_id.nunique() < 1:
-        raise RuntimeError("训练环境为空")
-    family_median = (train.groupby("family_id").duration_s.median()
-                     .to_dict())
+    """Fit train-only duration models and calibrate Q90 with grouped OOF residuals.
 
-    def fit(alpha):
-        prep = ColumnTransformer([
-            ("num", StandardScaler(), NUMERIC),
-            ("family", OneHotEncoder(handle_unknown="ignore"), ["family_id"])])
-        model = make_pipeline(prep, GradientBoostingRegressor(
-            loss="quantile", alpha=alpha, n_estimators=120, max_depth=2,
-            min_samples_leaf=8, random_state=20261117))
-        model.fit(train[NUMERIC + ["family_id"]], np.log1p(train.duration_s))
-        return model
+    Each training environment is held out while estimating its residual.  The
+    90th percentile residual is then added to the full-train Q90 prediction.
+    This guards against the observed Q90 undercoverage without learning from
+    validation or test environments.
+    """
+    train = features[features.split == "train"].copy()
+    if train.environment_id.nunique() < 2:
+        raise RuntimeError("Q90 校准至少需要两个训练环境")
+    family_median = train.groupby("family_id").duration_s.median().to_dict()
+    q50 = _fit_quantile_model(train, .50)
+    q90 = _fit_quantile_model(train, .90)
 
-    return {"q50": fit(.50), "q90": fit(.90), "family_median": family_median}
+    oof_rows = []
+    for environment_id in sorted(train.environment_id.unique()):
+        fold_train = train[train.environment_id != environment_id]
+        fold_holdout = train[train.environment_id == environment_id]
+        fold_model = _fit_quantile_model(fold_train, .90)
+        raw = np.maximum(0.05, np.expm1(fold_model.predict(
+            fold_holdout[NUMERIC + ["family_id"]])))
+        oof_rows.append(pd.DataFrame({
+            "environment_id": environment_id,
+            "duration_s": fold_holdout.duration_s.to_numpy(float),
+            "q90_oof": raw,
+        }))
+    oof = pd.concat(oof_rows, ignore_index=True)
+    residual = oof.duration_s.to_numpy(float) - oof.q90_oof.to_numpy(float)
+    # One-sided additive conformal-style correction.  Never reduce the Q90
+    # reservation because the scheduling objective treats underestimation as
+    # capacity risk.
+    margin = max(0.0, float(np.quantile(residual, .90)))
+    oof_coverage_raw = float(np.mean(residual <= 0.0))
+    oof_coverage_calibrated = float(np.mean(residual <= margin))
+    calibration = {
+        "method": "train_environment_leave_one_out_q90_residual",
+        "n_train_environments": int(train.environment_id.nunique()),
+        "n_oof_rows": int(len(oof)),
+        "target_coverage": 0.90,
+        "q90_additive_margin_s": margin,
+        "oof_coverage_raw": oof_coverage_raw,
+        "oof_coverage_calibrated": oof_coverage_calibrated,
+    }
+    return {"q50": q50, "q90": q90, "family_median": family_median,
+            "q90_additive_margin_s": margin, "q90_calibration": calibration}
 
 
 def validate_duration_models(features: pd.DataFrame, models: dict, output: Path) -> None:
     val = features[features.split == "validation"].copy()
     x = val[NUMERIC + ["family_id"]]
     q50 = np.maximum(0.05, np.expm1(models["q50"].predict(x)))
-    q90 = np.maximum(q50, np.expm1(models["q90"].predict(x)))
+    q90_raw = np.maximum(q50, np.expm1(models["q90"].predict(x)))
+    q90_calibrated = np.maximum(q50, q90_raw + models["q90_additive_margin_s"])
     base = val.family_id.map(models["family_median"]).to_numpy(float)
     y = val.duration_s.to_numpy(float)
     rows = []
-    for name, pred, tau in (("family_median", base, None), ("q50", q50, 0.5), ("q90", q90, 0.9)):
+    for name, pred, tau in (("family_median", base, None), ("q50", q50, 0.5),
+                            ("q90_raw", q90_raw, 0.9),
+                            ("q90_calibrated", q90_calibrated, 0.9)):
         row = {"model": name, "mae": float(np.mean(np.abs(y - pred))),
                "signed_bias": float(np.mean(y - pred))}
         if tau is not None:
@@ -158,12 +201,16 @@ def validate_duration_models(features: pd.DataFrame, models: dict, output: Path)
         rows.append(row)
     pd.DataFrame(rows).to_csv(output / "q3_duration_validation.csv", index=False,
                               encoding="utf-8-sig")
+    (output / "q3_duration_calibration.json").write_text(
+        json.dumps(models["q90_calibration"], ensure_ascii=False, indent=2),
+        encoding="utf-8")
 
 
 def predict_duration(models, obs, family, alpha, beta):
     x = pd.DataFrame([{**obs, "family_id": family}])
     q50 = max(.05, float(np.expm1(models["q50"].predict(x)[0])))
-    q90 = max(q50, float(np.expm1(models["q90"].predict(x)[0])))
+    q90_raw = max(q50, float(np.expm1(models["q90"].predict(x)[0])))
+    q90 = max(q50, q90_raw + models["q90_additive_margin_s"])
     return alpha * q50 + beta, alpha * q90 + beta
 
 

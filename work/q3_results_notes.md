@@ -61,3 +61,17 @@
 - 0.50 门槛逐案例报告、未达标如实陈述 ✓（edd 基线三案例均未达，如实列出）
 - 官方抽样顺序/同 seed 配对 ✓；无官方 test seeds，停在 validation ✓
 
+
+## Latest Q90-calibrated rerun (2026-11-22)
+
+This run supersedes the earlier Q3 duration-model and scheduler validation figures above. The Q90 additive correction (3.858971 s) was estimated only from leave-one-training-environment-out residuals across 16 training environments (738 OOF rows). Training OOF coverage moved from 0.8157 to 0.8997. On validation, raw/calibrated Q90 coverage was 0.8000/0.9524 (20 of 21 rows); calibrated Q90 MAE rose from 9.2395 s to 12.2143 s, so the calibrated upper quantile is conservative on this small set.
+
+The frozen parameter search selected w_due=1.0, w_cost=0.06, reserve_quantile_mix=0.5, with the remaining values in `outputs/pycharm_q3_calibrated_tune_20261122/q3_tuned_params_flat.json`. Across five duration mappings and 30 validation seeds, weighted on-time means were:
+
+| Case | Adaptive | No review | EDD |
+|---|---:|---:|---:|
+| S1 | 0.7917 | 0.8271 | 0.3813 |
+| S2 | 0.6097 | 0.6236 | 0.2722 |
+| S3 | 0.5073 | 0.5250 | 0.2135 |
+
+All 1,350 trials had valid protocol and zero invalid actions. The 11,580-row action log and trial-level metrics are in `outputs/pycharm_q3_calibrated_final_20261122/`; summary tables are in the corresponding `pycharm_q3_calibrated_analysis_20261122/` directory. A separate replay of one trial matched all 11 metrics. No official test seeds were available; these are validation results only. See `reports/q3_calibrated_rerun_review_20261122.md` for reproduction steps and caveats.
